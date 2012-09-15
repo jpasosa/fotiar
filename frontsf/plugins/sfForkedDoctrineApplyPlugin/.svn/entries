@@ -1,0 +1,91 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfForkedDoctrineApplyPlugin
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2012-02-23T20:55:10.956419Z
+297
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+i18n
+dir
+
+LICENSE
+file
+
+
+
+
+2011-10-26T14:42:49.000000Z
+5f8e8c415851c5ee140676a579a47590
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+config
+dir
+
+lib
+dir
+
+UPGRADE
+file
+
+
+
+
+2011-10-26T14:42:49.000000Z
+9d59de57817b2541bd29bf098efdb8b9
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+modules
+dir
+
+web
+dir
+
+README
+file
+
+
+
+
+2011-10-26T14:42:49.000000Z
+9e5c6212348a83ac144064b8583541b8
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+README.markdown
+file
+
+
+
+
+2011-10-26T14:42:49.000000Z
+9e5c6212348a83ac144064b8583541b8
+2011-10-22T23:11:01.262689Z
+130
+clodo
+

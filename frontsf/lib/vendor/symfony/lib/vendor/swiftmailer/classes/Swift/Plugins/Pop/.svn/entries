@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Plugins/Pop
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Pop3Exception.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+4d439b5ad54559415df76378bc606d3c
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Pop3Connection.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+cb50d4a1d4398078239ef886eaa6d27a
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/validator
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfValidatorDoctrineUnique.class.php
+file
+
+
+
+
+2011-10-11T20:50:35.000000Z
+5aec6bc5043b2d5fc68d7e45edd2473d
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+sfValidatorDoctrineChoice.class.php
+file
+
+
+
+
+2011-10-11T20:50:35.000000Z
+3485407901f9e778157581b3683cc438
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

@@ -1,0 +1,64 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-23T14:38:00.562467Z
+212
+danilo
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+app
+dir
+
+styles
+dir
+
+scripts
+dir
+
+inc
+dir
+
+.htaccess
+file
+
+
+
+
+2011-11-21T20:05:08.000000Z
+ad7070d479e62c79dce915e3afa5ca3e
+2011-11-19T06:20:33.857491Z
+177
+danilo
+
+index.php
+file
+
+
+
+
+2011-11-21T20:05:08.000000Z
+396bde8915ab71d721f513247208ec29
+2011-11-19T06:20:33.857491Z
+177
+danilo
+

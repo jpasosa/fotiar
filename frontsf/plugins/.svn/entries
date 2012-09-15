@@ -1,0 +1,106 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2012-02-23T20:55:10.956419Z
+297
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfFormExtraPlugin
+dir
+
+sfForkedDoctrineApplyPlugin
+dir
+
+sfDoctrineGuardPlugin
+dir
+
+.depdblock
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2011-10-21T19:35:38.729868Z
+128
+danilo
+
+.registry
+dir
+
+.lock
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2011-10-21T19:35:38.729868Z
+128
+danilo
+
+sfImageTransformPlugin
+dir
+
+sfJqueryReloadedPlugin
+dir
+
+.channels
+dir
+
+sfWebBrowserPlugin
+dir
+
+sfThumbnailPlugin
+dir
+
+.filemap
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+e7a951b9d7e610ac2454d5034f439ef5
+2011-10-25T09:29:42.040540Z
+134
+danilo
+
+.depdb
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+ff272644487b5a195e80b7d2b3137481
+2011-10-21T19:35:38.729868Z
+128
+danilo
+
+sfDependentSelectPlugin
+dir
+

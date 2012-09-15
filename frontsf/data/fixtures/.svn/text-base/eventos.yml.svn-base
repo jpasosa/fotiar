@@ -1,0 +1,33 @@
+Evento:
+  eve01:
+    caption: Esqui
+    nombre_archivo_es: evento1_es.jpg
+    nombre_archivo_pt: evento1_pt.jpg
+    nombre_archivo_en: evento1_en.jpg
+    nombre_icono: icono1.png
+    Categoria: varios
+#    Subcategoria: scat0303
+  eve02:
+    caption: Surf
+    nombre_archivo_es: evento2_es.jpg
+    nombre_archivo_pt: evento2_pt.jpg
+    nombre_archivo_en: evento2_en.jpg
+    nombre_icono: icono2.png
+    Categoria: cat01
+    Subcategoria: scat0102
+  eve03:
+    caption: Castor 2010
+    nombre_archivo_es: evento3_es.jpg
+    nombre_archivo_pt: evento3_pt.jpg
+    nombre_archivo_en: evento3_en.jpg
+    nombre_icono: icono3.png
+    Categoria: cat02
+    Subcategoria: scat0203
+  eve04:
+    caption: Castor 2011
+    nombre_archivo_es: evento4_es.jpg
+    nombre_archivo_pt: evento4_pt.jpg
+    nombre_archivo_en: evento4_en.jpg
+    nombre_icono: icono4.png
+    Categoria: cat01
+    Subcategoria: scat0101

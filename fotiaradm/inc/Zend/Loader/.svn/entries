@@ -1,0 +1,70 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Loader
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Autoloader
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+50d4474650f09b7c90a7fd10cd56939e
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+PluginLoader
+dir
+
+Autoloader.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+c7cdc11c172e8b4225b1e7a28d2eb8a3
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+PluginLoader.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+81ce256037a6d28b2c12165655652198
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

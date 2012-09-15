@@ -1,0 +1,1 @@
+<div class="favorita added"><?=__('Se ha añadido a Favoritas');?></div>

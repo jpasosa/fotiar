@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/model/shopping
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-18T04:13:49.844011Z
+165
+clodo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+ShoppingCartItem.class.php
+file
+
+
+
+
+2011-11-21T19:33:53.000000Z
+2e7c02fadd7ff849de1db4b7f4645578
+2011-11-18T04:13:49.844011Z
+165
+clodo
+
+ShoppingCart.class.php
+file
+
+
+
+
+2011-11-21T19:33:53.000000Z
+6c116a3bded583effdafe4ed3ee0d6be
+2011-11-18T04:13:49.844011Z
+165
+clodo
+

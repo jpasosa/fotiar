@@ -1,0 +1,79 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/form
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2012-01-12T18:08:42.598893Z
+269
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+SearchForm.php
+file
+
+
+
+
+2012-01-30T11:56:54.000000Z
+bcc3e3bb28bd5d2347579ad17375bbd9
+2012-01-12T18:08:42.598893Z
+269
+danilo
+
+PostalForm.class.php
+file
+
+
+
+
+2011-12-01T14:21:54.000000Z
+eff21d2a340563ef83448b908435e872
+2011-12-01T14:19:30.621923Z
+223
+danilo
+
+doctrine
+dir
+
+BaseForm.class.php
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+89e31a289208fe79444e7c7b766ff580
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+ContactoForm.class.php
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+33bf8f4da6a7ffc06b2c38f5efc3fc36
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

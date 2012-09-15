@@ -1,0 +1,37 @@
+Rol:
+  admin:
+    id: admin
+    descripcion: Administrador
+  fotografo:
+    id: fotografo
+    descripcion: Fotógrafo
+
+Usuario:
+  usu01:
+    usuario: gasoil
+    contrasena: edde2eca26954653b4e4807c0cb0c336a8ce6d77
+    nombre: Gaston
+    apellido: Mourin
+    correo: gasoil@gmail.com
+    precio: 40.3
+    rol_id: admin
+    comision: 20
+  usu02:
+    usuario: fotografo x
+    contrasena: dc724af18fbdd4e59189f5fe768a5f8311527050
+    nombre: Francisco
+    apellido: García
+    correo: francisco.garcia.12345@gmail.com
+    precio: 32.7
+    rol_id: fotografo
+    comision: 10
+  usu03:
+    usuario: groca
+    contrasena: dc724af18fbdd4e59189f5fe768a5f8311527050
+    nombre: Gabriel
+    apellido: Roca
+    correo: groca@hotmail.com
+    precio: 30.2
+    rol_id: fotografo
+    comision: 20
+    

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-12-09T17:55:12Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Bienvenido</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Salir</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>¿Aún no estas registrado?</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Recuperar contraseña</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Home</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Eventos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Contacto</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Mi Cuenta</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Acceder a mi Cuenta</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Mis Datos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Mis Compras</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Carrito de Compras</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Pedidos Anteriores</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Fotiar | Av. Asamblea 45236 | Cerro | Provincia de Río Negro | Reservas: 0342 5698 25698/0569 5423 6985</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Búsqueda por Tema</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Búsqueda por Fotógrafo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Búsqueda por Fechas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Hoy</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Ayer</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Semana</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Buscar Foto &gt;</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Todos los derechos de las fotografías se encuentran registrados</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Tu mensaje no se ha podido enviar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Por favor intenta nuevamente</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Aceptar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Nombre</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Teléfono</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>E-Mail</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Mensaje</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Borrar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Enviar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Cancelar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Enviando...</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>POSTALES</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>enviale una postal a un amigo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Gracias!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>En breve responderemos tu mensaje!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Equipo de</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Fotos guardadas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Buscar Fotos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Papelera de Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Mis Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Todos los derechos se encuentran registrados</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Carrito</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Postales</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Ampliar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>No se han encontrado fotos que coincidan con la búsqueda que realizaste.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Se ha añadido a Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>No se han encontrado fotos en este evento que coincidan con la búsqueda que realizaste.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Esta búsqueda cuenta con </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Se ha añadido al Carrito</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Añadir al Carrito</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Añadir a Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Fotógrafo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Fecha de captura</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>Cámara</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Modelo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Tiempo de exposición</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Velocidad</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Tipo de imagen</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Precio</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>puedes enviarle una postal a un amigo seleccionando el siguiente ico</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Carrito (%1%)</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Restaurar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Eliminar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Papelera Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Tienes (%1%) fotos en tus PAPELERA de favoritas.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Aquí puedes encontrar las fotos eliminadas de tus FAVORITAS.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Puedes restaurarlas a tu carpeta de Favoritas o eliminarlas definitivamente.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Vaciar </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Papelera</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Ir a </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>No tienes fotos en tu Papelera.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Enviar a la Papelera</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Tienes (%1%) fotos guardadas en tus FAVORITAS.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Desde aquí podrás agregarlas al CARRITO DE COMPRAS o enviarlas como POSTAL a un amigo.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Puedes recuperar las favoritas que hayas eliminado accediendo a tu papelera.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>Ir a mi </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Ir a la </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Añadida a Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Búsqueda por Lugar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Hola</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>te ha enviado una Postal desde el sitio www.fotiar.com.ar con el siguiente mensaje</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>Puedes ver la postal haciendo click en este link</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Ver Postal</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="98">
+        <source> te ha enviado una postal desde el sitio www.fotiar.com.ar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Nombre Destinatario</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>E-Mail Destinatario</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Tu postal no se ha podido enviar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Más Información</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Enviar Postal</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Añadida al Carrito</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Fecha de Captura</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Etiquetas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Velocidad ISO</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Categoría</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Subcategoría</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Tipo de Imagen</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Te han enviado esta Postal</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>La postal se envió con éxito!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>&lt;span&gt;</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Búsqueda por Categoría</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Confirmar Compra</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Tienes (%1%) fotos pendientes de confirmación.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Desde aquí podrás confirmar las fotografías que desees comprar.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Puedes también consultar tus COMPRAS ANTERIORES o volver a MI CARRITO.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Costo Total: </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Realizar </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Pago</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>Confirmación de compra</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Estás a punto de confirmar tu compra. Revisa los items y luego haz click en el botón</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Realizar Pago</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>para continuar.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Total</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Tienes (%1%) fotos en tu carrito.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>Puedes también consultar tus COMPRAS ANTERIORES o volver a FAVORITAS para seleccionar más fotografías.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Mi Carrito</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Tienes (%1%) fotos en tu CARRITO DE COMPRAS.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>Desde aquí podrás descartar las fotografías que no desees antes de confirmar tu compra.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Confirmar </source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Compra</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>Quitar del Carrito</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Pago Aceptado</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>:)</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Pago Pendiente</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>:|</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Añadida al Favoritas</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>BUSCA TU FOTO</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>Gracias por confirmar tu cuenta!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Ahora estás logueado.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Cambio de contraseña</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>Puedes cambiar tu contraseña completando estos campos</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Clave Nueva</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Conf. Clave Nueva</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Cambiar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Completa el Formulario y podrás acceder a todos los beneficios de FOTIAR</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Apellido</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Conf. E-Mail</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Clave</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>Conf. Clave</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>Pais</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Ciudad</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>Dirección</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>Fecha Nac.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Tu contraseña se reestableció exitosamente</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>Asegúrate de usar tu nueva contraseña a partir de ahora.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>Gracias por confirmar tu dirección de correo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>Ahora puedes cambiar tu contraseña completando estos campos:</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>Contraseña Nueva</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>Conf. contraseña</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>Reestablecer</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>Gracias por Registrate!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>Recibirás un correo de verificación.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>En caso de que no encuentres este correo en tu bandeja de entrada, por favor revisa tu carpeta "spam" o "bulk"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>Has olvidado tu contraseña?</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>Ingresa tu email y te enviaremos un correo con indicaciones.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>Recuperar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>Revisa tu correo!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>Hemos enviado un correo de confirmación a tu casilla con instrucciones para que puedas cambiar tu contraseña.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>Continuar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>Cambiar Contraseña</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>Guardar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>Contraseña</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>Acceder</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>Completa tu correo electrónico y contraseña para ingresar al sitio.</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,47 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/mercadopago
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-12-13T21:12:02.112562Z
+249
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+services
+dir
+
+config.php
+file
+
+
+
+
+2011-12-09T21:17:08.000000Z
+1de0c75942b07a672d7d33748bed27b0
+2011-12-08T21:54:22.737943Z
+239
+clodo
+has-props
+
+classes
+dir
+

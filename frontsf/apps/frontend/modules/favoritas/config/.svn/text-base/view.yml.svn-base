@@ -1,0 +1,3 @@
+all:
+  stylesheets: [ colorbox.css ]
+  javascripts: [ jquery.colorbox.js, ampliar_x.js, icons_rolover.js ]

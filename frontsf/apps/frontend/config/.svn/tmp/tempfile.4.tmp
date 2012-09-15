@@ -1,0 +1,33 @@
+all:
+  sfForkedApply:
+    from:
+      email: "claudiobidau@gmail.com"
+      fullname: "la gente de FOTIAR"
+    routes:
+      apply: /user/new
+      reset: /user/password-reset
+      resetRequest: /user/reset-request
+      resetCancel: /user/reset-cancel
+      validate: /user/confirm/:validate
+      settings: /user/settings
+  sf_guard_plugin:
+    allow_login_with_email: true
+    success_signout_url: @homepage
+  sfImageTransformPlugin:
+    default_adapter: GD # GD or ImageMagick
+    mime_type:
+      auto_detect: true
+      library: gd_mime_type
+    font_dir: %SF_PLUGINS_DIR%/sfImageTransformExtraPlugin/data/example-resources/fonts
+#    sfDependentSelectPlugin:
+#      js: minimized#normal
+<<<<<<< .mine
+#  url_backend: http://fotiaradm/
+  url_backend: http://fotiar.cooph.com.ar/
+=======
+#  url_backend: http://admin.fotiar:8888/
+  url_backend: http://fotiaradm/
+#  urlBackend: http://fotiar.cooph.com.ar/fotiaradm
+  mercadopago:
+    client_id: 3269
+    client_secret: 6U6duA3QCnkcbfMF5ijQbw9HFbzXj5IA>>>>>>> .r248

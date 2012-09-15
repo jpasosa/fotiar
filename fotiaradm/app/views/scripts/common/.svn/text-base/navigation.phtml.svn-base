@@ -1,0 +1,25 @@
+<? 
+$logon = true;
+if (count($this->sections)==1)
+{
+	$logon = false;
+	
+}
+foreach ($this->sections as $k=>$v)
+{
+	$link = $this->actionLink($v, $k,'index',array(),$this->linkAttributes[$k]); 
+	if ($link != '')
+	{
+		echo $link;
+	}	
+	else 
+	{
+		echo '<span class="'.$k.'"></span>';
+	}
+}
+if (!$logon)
+{
+	echo '<span class="carga"></span><span class="fotografia"></span><span class="reporte"></span><span class="administracion"></span>';
+}
+
+?>

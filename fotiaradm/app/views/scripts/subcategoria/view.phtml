@@ -1,0 +1,20 @@
+<h3>Categoría- Detalle</h3>
+<p>
+<?=$this->actionLink('Volver al listado', 'subcategoria', 'index', array(), array('class'=>'back')) ?>
+<br style="clear:both" />
+</p>
+<dl class="view">
+	<dt>Categoría:</dt>
+	<dd><?=$this->escape(models_Categoria::findByPK($this->subcategoria->categoria_id)) ?>&nbsp;</dd>
+	<dt>Subcategoría:</dt>
+	<dd><?=$this->escape($this->subcategoria->descripcion) ?>&nbsp;</dd>
+</dl>
+<div class="actions">
+<?=$this->actionLink('Editar', 
+	'subcategoria','edit',
+	array('id' => $this->subcategoria->id), array('class'=>'edit'),
+	true, array('class'=>'edit disabled')) ?>
+<?=(!models_Subcategoria::isInUse($this->subcategoria->id))? $this->actionLink('Eliminar', 'subcategoria','delete',array('id' => $this->subcategoria->id), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'delete'),
+	true, array('class'=>'delete disabled')) : '<span class="delete disabled">Eliminar</span>' ?>
+</div>
+<br style="clear: both"/>

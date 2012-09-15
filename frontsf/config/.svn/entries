@@ -1,0 +1,81 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/config
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-12-22T00:36:57.633046Z
+265
+danilo
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+rsync_exclude.txt
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+78ae708496b5f45951a083f26704d03d
+2011-10-11T11:24:46.160574Z
+116
+danilo
+has-props
+
+doctrine
+dir
+
+Copy of databases.yml
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+ddea19ff03e4f73bab55f9c6c0f78a48
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+ProjectConfiguration.class.php
+file
+
+
+
+
+2011-11-21T19:33:53.000000Z
+c6b27a305124868f2deaa96e2c3f099e
+2011-11-21T03:59:48.098384Z
+196
+clodo
+
+properties.ini
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+e880ad87980312959d4a0feeae4eaef2
+2011-10-11T11:24:46.160574Z
+116
+danilo
+has-props
+

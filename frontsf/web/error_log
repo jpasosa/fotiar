@@ -1,0 +1,146 @@
+[11-Oct-2011 14:53:00] Configuration "config/databases.yml" does not exist or is unreadable.
+[14-Oct-2011 11:49:16] The route "localized_homepage" does not exist.
+[14-Oct-2011 11:50:40] Empty module and/or action after parsing the URL "/images/home/banner_home_es.jpg" (/).
+[14-Oct-2011 11:50:48] Empty module and/or action after parsing the URL "/images/home/banner_home_es.jpg" (/).
+[14-Oct-2011 11:53:10] Empty module and/or action after parsing the URL "/images/home/banner_home_es.jpg" (/).
+[14-Oct-2011 11:54:00] Empty module and/or action after parsing the URL "/images/home/banner_home_es.jpg" (/).
+[14-Oct-2011 11:54:06] Empty module and/or action after parsing the URL "/images/home/banner_home_en.jpg" (/).
+[14-Oct-2011 11:54:13] Empty module and/or action after parsing the URL "/images/home/banner_home_pt.jpg" (/).
+[14-Oct-2011 11:54:16] Empty module and/or action after parsing the URL "/images/home/banner_home_en.jpg" (/).
+[14-Oct-2011 11:54:19] Empty module and/or action after parsing the URL "/images/home/banner_home_es.jpg" (/).
+[14-Oct-2011 11:55:53] Empty module and/or action after parsing the URL "/images/home/banner_home_es.jpg" (/).
+[14-Oct-2011 11:55:55] Empty module and/or action after parsing the URL "/images/home/banner_home_en.jpg" (/).
+[26-Oct-2011 08:45:00] PHP Fatal error:  Class 'sfGuardSecurityUser' not found in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/lib/myUser.class.php on line 4
+[26-Oct-2011 08:47:04] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[26-Oct-2011 08:47:13] Source image is a URL but it cannot be used because http://fotiar/fotos/default.png returned error code 404
+[26-Oct-2011 08:53:30] Source image is a URL but it cannot be used because http://fotiar/fotos/default.png returned error code 404
+[27-Oct-2011 08:42:23] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[27-Oct-2011 08:42:28] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[28-Oct-2011 17:06:32] Action "uploads/fotos" does not exist.
+[28-Oct-2011 17:38:59] Action "uploads/fotos" does not exist.
+[28-Oct-2011 17:41:10] Action "uploads/fotos" does not exist.
+[28-Oct-2011 18:16:09] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[31-Oct-2011 06:23:01] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[31-Oct-2011 06:23:04] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[03-Nov-2011 16:40:02] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 05:01:57] Source image is a URL but it cannot be used because http://fotiar/fotos/default.png returned error code 404
+[04-Nov-2011 05:02:00] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[04-Nov-2011 05:02:00] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[04-Nov-2011 05:02:25] Source image is a URL but it cannot be used because http://fotiar/fotos/default.png returned error code 404
+[04-Nov-2011 05:02:45] Source image is a URL but it cannot be used because http://fotiar/fotos/default.png returned error code 404
+[04-Nov-2011 05:04:30] The route "favoritas" does not exist.
+[04-Nov-2011 05:04:39] The route "favoritas" does not exist.
+[04-Nov-2011 05:05:06] The route "favoritas" does not exist.
+[04-Nov-2011 05:07:46] Unknown relation alias Fotografias
+[04-Nov-2011 08:11:53] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 08:11:57] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 09:09:59] Empty module and/or action after parsing the URL "/es" (/).
+[04-Nov-2011 09:18:10] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 09:18:41] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 09:19:08] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 12:22:15] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[04-Nov-2011 12:32:40] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[08-Nov-2011 10:50:16] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[08-Nov-2011 10:51:26] Unknown relation alias Fotografias
+[08-Nov-2011 12:19:28] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[08-Nov-2011 12:44:08] Source image is a URL but it cannot be used because http://fotiar.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:44:09] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[08-Nov-2011 12:44:10] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[08-Nov-2011 12:44:12] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[08-Nov-2011 12:44:21] Source image is a URL but it cannot be used because http://fotiar.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:44:29] Empty module and/or action after parsing the URL "/frontnd_dev.php/es/busqueda/1" (/).
+[08-Nov-2011 12:44:47] Source image is a URL but it cannot be used because http://fotiar.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:46:31] Source image is a URL but it cannot be used because http://fotiar.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:48:50] Source image is a URL but it cannot be used because http://fotiar.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:51:01] Empty module and/or action after parsing the URL "/fotiaradm/fotos/1317424062.JPG" (/).
+[08-Nov-2011 12:51:01] Empty module and/or action after parsing the URL "/fotiaradm/fotos/default.png" (/).
+[08-Nov-2011 12:51:02] Source image is a URL but it cannot be used because http://fotiarfront.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:54:54] Empty module and/or action after parsing the URL "/fotiaradm/fotos/1317424062.JPG" (/).
+[08-Nov-2011 12:54:54] Empty module and/or action after parsing the URL "/fotiaradm/fotos/default.png" (/).
+[08-Nov-2011 12:54:54] Source image is a URL but it cannot be used because http://fotiarfront.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:55:37] Empty module and/or action after parsing the URL "/fotiaradm/fotos/1317424062.JPG" (/).
+[08-Nov-2011 12:55:37] Empty module and/or action after parsing the URL "/fotiaradm/fotos/default.png" (/).
+[08-Nov-2011 12:55:37] Source image is a URL but it cannot be used because http://fotiarfront.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[08-Nov-2011 12:56:41] Empty module and/or action after parsing the URL "/fotiaradm/fotos/1317424062.JPG" (/).
+[08-Nov-2011 12:56:41] Empty module and/or action after parsing the URL "/fotiaradm/fotos/default.png" (/).
+[08-Nov-2011 12:56:41] Source image is a URL but it cannot be used because http://fotiarfront.cooph.com.ar/fotiaradm/fotos/default.png returned error code 404
+[09-Nov-2011 05:00:11] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[09-Nov-2011 05:07:35] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[09-Nov-2011 05:08:19] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[11-Nov-2011 10:44:24] Couldn't find class evento
+[11-Nov-2011 10:44:25] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[11-Nov-2011 10:44:26] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[11-Nov-2011 10:44:28] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[14-Nov-2011 09:48:13] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[14-Nov-2011 09:48:27] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[15-Nov-2011 06:54:16] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[15-Nov-2011 06:55:30] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[15-Nov-2011 07:01:25] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[21-Nov-2011 13:07:25] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.caption' in 'field list'. Failing Query: "SELECT `e`.`id` AS `e__id`, `e`.`caption` AS `e__caption`, `e`.`nombre_archivo_es` AS `e__nombre_archivo_es`, `e`.`nombre_archivo_pt` AS `e__nombre_archivo_pt`, `e`.`nombre_archivo_en` AS `e__nombre_archivo_en`, `e`.`nombre_icono` AS `e__nombre_icono`, `e`.`categoria_id` AS `e__categoria_id`, `e`.`subcategoria_id` AS `e__subcategoria_id`, `e`.`created_at` AS `e__created_at`, `e`.`created_by` AS `e__created_by`, `e`.`updated_at` AS `e__updated_at`, `e`.`updated_by` AS `e__updated_by`, `e`.`deleted_at` AS `e__deleted_at`, `e`.`deleted_by` AS `e__deleted_by` FROM `evento` `e` LIMIT 4"
+[21-Nov-2011 13:07:26] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[21-Nov-2011 13:07:28] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[21-Nov-2011 13:07:29] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[21-Nov-2011 13:07:39] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.caption' in 'field list'. Failing Query: "SELECT `e`.`id` AS `e__id`, `e`.`caption` AS `e__caption`, `e`.`nombre_archivo_es` AS `e__nombre_archivo_es`, `e`.`nombre_archivo_pt` AS `e__nombre_archivo_pt`, `e`.`nombre_archivo_en` AS `e__nombre_archivo_en`, `e`.`nombre_icono` AS `e__nombre_icono`, `e`.`categoria_id` AS `e__categoria_id`, `e`.`subcategoria_id` AS `e__subcategoria_id`, `e`.`created_at` AS `e__created_at`, `e`.`created_by` AS `e__created_by`, `e`.`updated_at` AS `e__updated_at`, `e`.`updated_by` AS `e__updated_by`, `e`.`deleted_at` AS `e__deleted_at`, `e`.`deleted_by` AS `e__deleted_by` FROM `evento` `e` LIMIT 4"
+[21-Nov-2011 13:22:30] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca.png. File does not exist or is unreadable
+[21-Nov-2011 13:23:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 15552 bytes) in /home/hormigon/usvn/files/checkout/fotiar/frontsf/plugins/sfImageTransformPlugin/lib/adapters/sfImageTransformGDAdapter.class.php on line 458
+[21-Nov-2011 13:23:28] Empty module and/or action after parsing the URL "/es/busqueda/?br" (/).
+[21-Nov-2011 13:27:18] Widget "etiqueta_id" does not exist.
+[21-Nov-2011 13:27:28] Widget "etiqueta_id" does not exist.
+[21-Nov-2011 14:37:18] Empty module and/or action after parsing the URL "/busqueda/index/lang/es" (/).
+[21-Nov-2011 20:39:21] Widget "etiqueta_id" does not exist.
+[22-Nov-2011 13:31:47] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:31:54] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:32:13] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:34:27] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:34:44] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:35:10] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:35:51] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:36:53] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:37:39] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:38:07] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:38:09] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:38:24] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:42:14] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:44:06] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[22-Nov-2011 13:50:04] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_f.png. File does not exist or is unreadable
+[24-Nov-2011 12:29:41] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_gris.png. File does not exist or is unreadable
+[24-Nov-2011 12:29:47] Unable to load /home/hormigon/usvn/files/checkout/fotiar/frontsf/web/uploads/marca_gris.png. File does not exist or is unreadable
+[25-Nov-2011 07:55:15] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[29-Nov-2011 10:13:06] Empty module and/or action after parsing the URL "/sfForkedDoctrineApplyPlugin/css/forked.css" (/).
+[01-Dec-2011 07:21:58] PHP Fatal error:  Class 'PostalForm' not found in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/fotografias/actions/actions.class.php on line 18
+[01-Dec-2011 07:39:47] PHP Fatal error:  Class 'PostalForm' not found in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/fotografias/actions/actions.class.php on line 18
+[01-Dec-2011 07:40:46] Empty module and/or action after parsing the URL "/images/userscreens/user_screens_bg.png" (/).
+[06-Dec-2011 10:28:46] SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.country' in 'field list'
+[06-Dec-2011 10:28:48] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[06-Dec-2011 10:28:49] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[06-Dec-2011 10:28:51] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[06-Dec-2011 10:29:13] SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.country' in 'field list'
+[09-Dec-2011 14:27:31] The route "checkout" does not exist.
+[09-Dec-2011 14:27:32] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[09-Dec-2011 14:27:33] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[09-Dec-2011 14:27:35] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[13-Dec-2011 14:52:48] The route "pedidos_anteriores" does not exist.
+[13-Dec-2011 14:52:49] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[13-Dec-2011 14:52:50] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[13-Dec-2011 14:52:51] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[13-Dec-2011 15:15:15] The route "pedidos_anteriores" does not exist.
+[20-Dec-2011 09:00:25] Call to undefined method shopActions::getGuardUser.
+[20-Dec-2011 09:00:30] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[20-Dec-2011 09:00:33] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[20-Dec-2011 09:14:15] Unknown record property / related component "status" on "Fotografia"
+[20-Dec-2011 09:37:45] PHP Fatal error:  Call to a member function setStatus() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 112
+[20-Dec-2011 17:07:43] PHP Notice:  Undefined variable: request in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 115
+[20-Dec-2011 17:07:43] PHP Fatal error:  Call to a member function hasParameter() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 115
+[20-Dec-2011 17:08:08] PHP Notice:  Undefined variable: request in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 115
+[20-Dec-2011 17:08:08] PHP Fatal error:  Call to a member function hasParameter() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 115
+[20-Dec-2011 17:37:42] PHP Fatal error:  Call to a member function setStatus() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 124
+[20-Dec-2011 17:43:19] PHP Fatal error:  Call to a member function setStatus() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 124
+[20-Dec-2011 17:45:21] PHP Fatal error:  Call to a member function setStatus() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 124
+[20-Dec-2011 17:46:41] PHP Fatal error:  Call to a member function setStatus() on a non-object in /home/hormigon/usvn/files/checkout/fotiar/frontsf/apps/frontend/modules/shop/actions/actions.class.php on line 124
+[20-Dec-2011 17:51:29] The template "pagoPendienteSuccess.php" does not exist or is unreadable in "".
+[19-Mar-2012 22:54:33] The route "busqueda_guardada" does not exist.
+[19-Mar-2012 22:54:35] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[05-Apr-2012 14:02:43] Empty module and/or action after parsing the URL "/fotiaradm" (/).
+[05-Apr-2012 14:02:47] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[05-Apr-2012 14:02:47] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[05-Apr-2012 14:03:49] Empty module and/or action after parsing the URL "/fotiaradm/" (/).

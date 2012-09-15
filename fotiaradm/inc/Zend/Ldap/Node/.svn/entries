@@ -1,0 +1,94 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Ldap/Node
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+RootDse
+dir
+
+Schema
+dir
+
+Collection.php
+file
+
+
+
+
+2011-11-21T20:04:47.000000Z
+d5ffdc75a48745d11d35bea8ce089e95
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+RootDse.php
+file
+
+
+
+
+2011-11-21T20:04:47.000000Z
+4ca1027156328192fd100fa55811e1b6
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Schema.php
+file
+
+
+
+
+2011-11-21T20:04:47.000000Z
+23fa5af63c6b19ea94dcb716c29d887b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+ChildrenIterator.php
+file
+
+
+
+
+2011-11-21T20:04:47.000000Z
+513d88d00d1d1cf281a4a2b6723057ab
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:04:47.000000Z
+87019041a75aed064220dcc7fbcae428
+2011-11-19T06:17:41.332353Z
+176
+danilo
+

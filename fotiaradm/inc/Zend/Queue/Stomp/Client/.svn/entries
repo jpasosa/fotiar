@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Queue/Stomp/Client
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Connection.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+fadc2e6a1de9983a149666b18e9c012b
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+ConnectionInterface.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+17194015d2eaf00949b20afd36d9d4fd
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

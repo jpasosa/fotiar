@@ -1,0 +1,79 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Markup/Renderer
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+TokenConverterInterface.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+c611b2bfdbc5300e9abc2c2debea2816
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+RendererAbstract.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+75eb017b49967e77a4f68cfb05d9b0dd
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Html
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+e189cf12b18f3c5c41ffde5c19e39c55
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Html.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+a0044ba0fb15d5601701a737aff5fda5
+2011-11-19T06:17:41.332353Z
+176
+danilo
+

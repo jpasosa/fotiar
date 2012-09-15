@@ -1,0 +1,9 @@
+<?
+$this->headScript()->appendFile($this->baseUrl . 'scripts/reporte_index.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/datepicker/datepicker.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/datepicker/i18n/ui.datepicker-es.js');
+$this->headLink()->appendStylesheet($this->baseUrl . 'styles/datepicker.css');
+$this->headLink()->appendStylesheet($this->baseUrl . 'styles/fancy.css');
+?>
+<h4>Reportes del Sistema</h4>
+<?=$this->form;?>

@@ -1,0 +1,51 @@
+<? 
+$this->headScript()->appendFile($this->baseUrl . 'scripts/reporte.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/jquery-1.4.3.min.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fancybox/jquery.fancybox-1.3.4.pack.js');
+$this->headLink()->appendStylesheet($this->baseUrl . 'scripts/fancybox/jquery.fancybox-1.3.4.css');
+?>
+<h4>Detalle de Ventas - Desde el <?=$this->fechainicial?> al <?=$this->fechafinal?> - Fotógrafo <?=models_Usuario::findByPK($this->fotografo)?></h4>
+<p><?=$this->actionLink('Volver','reporte','index',
+							array(), array('class'=>'back'))?></p>
+<? if (count($this->ItemsDetalle)): ?>
+<table class="grid">
+	<thead>
+		<tr>
+			<th>Fecha de Venta</th>
+			<th># Pedido</th>
+			<th>Precio</th>
+			<th>Comision %</th>
+			<th>Comision $</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<? $odd = false; ?>
+		<? $preciototal = 0; ?>
+		<? $comisiontotal = 0; ?>
+		<?php foreach ($this->ItemsDetalle as $ItemDetalle):?>
+		<tr class="<?=($odd)?'odd':'even' ?>">
+		<? $odd = !$odd; ?>
+			<td><?=substr($ItemDetalle->fecha,0,10)?></td>
+			<td><?=$ItemDetalle->pedido_id?></td>
+			<td>$ <?=round($ItemDetalle->precio,2)?></td>
+			<td><?=round($ItemDetalle->comision,2)?> %</td>
+			<td>$ <?=round($ItemDetalle->precio*$ItemDetalle->comision/100,2)?></td>
+			<td>
+				<?$f = models_Fotografia::findByPK($ItemDetalle->fotografia_id)?>
+				<a rel="gallery" id="a<?=$f->id?>anc" href="<?=$this->baseUrl.$this->img_folder.$f->nombre_archivo?>" title="<?=$f->nombre_archivo?>" style='max-width:<?=$this->thumb_max_width?>px;max-height: <?=$this->thumb_max_width?>px' class="viewpicture" ></a>	
+			</td>
+		</tr>
+		<? $preciototal = $preciototal + $ItemDetalle->precio;?>
+		<? $comisiontotal = $comisiontotal + $ItemDetalle->precio*$ItemDetalle->comision/100; ?>
+		<?php endforeach;?>
+		<tr>
+			<td colspan='5' class="gridLast"></td>
+		</tr>
+	</tbody>
+</table>
+<h4>Total Vendido: $ <?=round($preciototal,2)?></h4>
+<h4>Total Comisiones: $ <?=round($comisiontotal,2)?></h4>
+<? else: ?>
+	<br/><br/><p class="message">(no se han registrado ventas para el período especificado)</p>
+<? endif;?>

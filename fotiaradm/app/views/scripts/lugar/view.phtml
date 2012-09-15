@@ -1,0 +1,18 @@
+<h3>Etiquetas de Lugar - Detalle</h3>
+<p>
+<?=$this->actionLink('Volver al listado', 'lugar', 'index', array(), array('class'=>'back')) ?>
+<br style="clear:both" />
+</p>
+<dl class="view">
+	<dt>Descripción:</dt>
+	<dd><?=$this->escape($this->lugar->descripcion) ?>&nbsp;</dd>
+</dl>
+<div class="actions">
+<?=$this->actionLink('Editar', 
+	'lugar','edit',
+	array('id' => $this->lugar->id), array('class'=>'edit'),
+	true, array('class'=>'edit disabled')) ?>
+<?=(!models_Lugar::isInUse($this->lugar->id))? $this->actionLink('Eliminar', 'lugar','delete',array('id' => $this->lugar->id), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'delete'),
+	true, array('class'=>'delete disabled')) : '<span class="delete disabled">Eliminar</span>' ?>
+</div>
+<br style="clear: both"/>

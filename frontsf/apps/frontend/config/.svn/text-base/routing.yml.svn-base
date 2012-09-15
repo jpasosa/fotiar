@@ -1,0 +1,169 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+    
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: home, action: index }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+change_language:
+  url:   /language/change/:lang
+  param: { module: language, action: changeLanguage }
+  requirements:
+    lang: (?:es|en|pt)
+
+
+busqueda:
+  url:   /:sf_culture/busqueda/:page/*
+  param: { module: busqueda, action: index, page: 1 }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+busqueda_guardada:
+  url:   /:sf_culture/busqueda-guardada
+  param: { module: busqueda, action: guardada }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+busqueda_auto_etiquetas:
+  url:   /:sf_culture/busqueda/autocompletarEtiquetas/*
+  param: { module: busqueda, action: autocompletarEtiquetas }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+eventos:
+  url:   /:sf_culture/evento/:page/*
+  param: { module: eventos, action: index, page: 1 }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+favoritas:
+  url:   /:sf_culture/favoritas
+  param: { module: favoritas, action: index }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+papelera:
+  url:   /:sf_culture/favoritas/papelera
+  param: { module: favoritas, action: papelera }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+papelera_vaciar:
+  url:   /:sf_culture/favoritas/vaciar-papelera
+  param: { module: favoritas, action: vaciarPapelera }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+foto_lightbox:
+  url: /fotografia/lightbox/:id/:extra
+  param: { module: fotografias, action: lightbox, id: id, extra: none }
+
+enviar_postal:
+  url:   /:sf_culture/fotografias/enviar-postal/:id
+  param: { module: fotografias, action: enviarPostal, id: id }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+show_postal:
+  url:   /:sf_culture/fotografias/mostrar-postal/:id
+  param: { module: fotografias, action: showPostal, id: id }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+contacto:
+  url:   /:sf_culture/contacto
+  param: { module: contacto, action: index }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+enviar_mensaje:
+  url:   /:sf_culture/contacto/enviar
+  param: { module: contacto, action: enviarMensaje }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+shop:
+  url:   /:sf_culture/shop/myCart
+  param: { module: shop, action: myCart }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+checkout:
+  url:   /:sf_culture/shop/confirmar-pago
+  param: { module: shop, action: checkOut }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+pago_aceptado:
+  url:   /:sf_culture/shop/pago-aceptado
+  param: { module: shop, action: pagoAceptado }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+pago_aceptado_rta:
+  url:   /:sf_culture/shop/pago-aceptado-rta
+  param: { module: shop, action: pagoAceptadoRta }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+pago_pendiente:
+  url:   /:sf_culture/shop/pago-pendiente
+  param: { module: shop, action: pagoPendiente }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+pago_pendiente_rta:
+  url:   /:sf_culture/shop/pago-pendiente-rta
+  param: { module: shop, action: pagoPendienteRta }
+  requirements:
+    sf_culture: (?:es|en|pt)
+    
+pedidos_anteriores:
+  url:   /:sf_culture/pedidos/anteriores
+  param: { module: pedidos, action: index }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+# Seguridad
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+#sf_guard_password:
+#  url:   /request_password
+#  param: { module: sfGuardAuth, action: password }
+
+registro:
+  url:   /:sf_culture/user/new
+  param: { module: sfApply, action: apply }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+
+default_index:
+  url:   /:sf_culture/:module
+  param: { action: index }
+  requirements:
+    sf_culture: (?:es|en|pt)
+
+default:
+  url:   /:sf_culture/:module/:action/*
+  requirements:
+    sf_culture: (?:es|en|pt)  

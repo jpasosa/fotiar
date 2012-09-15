@@ -1,0 +1,79 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfFormExtraPlugin/lib/validator
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-14T09:21:02.965144Z
+122
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfValidatorBlacklist.class.php
+file
+
+
+
+
+2011-10-14T17:28:35.000000Z
+47573deff2c7264ae1a31ead15940eed
+2011-10-14T09:21:02.965144Z
+122
+danilo
+
+sfValidatorReCaptcha.class.php
+file
+
+
+
+
+2011-10-14T17:28:35.000000Z
+71d741ed1a332e2c3c5e5eba43061123
+2011-10-14T09:21:02.965144Z
+122
+danilo
+
+doctrine
+dir
+
+sfValidatorDefault.class.php
+file
+
+
+
+
+2011-10-14T17:28:35.000000Z
+122f99df59284f63338fd9a1e055e4ff
+2011-10-14T09:21:02.965144Z
+122
+danilo
+
+sfValidatorSchemaTimeInterval.class.php
+file
+
+
+
+
+2011-10-14T17:28:35.000000Z
+f1af2b598238238258888f18dbc8a257
+2011-10-14T09:21:02.965144Z
+122
+danilo
+

@@ -1,0 +1,18 @@
+<h3>Categoría - Detalle</h3>
+<p>
+<?=$this->actionLink('Volver al listado', 'categoria', 'index', array(), array('class'=>'back')) ?>
+<br style="clear:both" />
+</p>
+<dl class="view">
+	<dt>Descripción:</dt>
+	<dd><?=$this->escape($this->categoria->descripcion) ?>&nbsp;</dd>
+</dl>
+<div class="actions">
+<?=$this->actionLink('Editar', 
+	'categoria','edit',
+	array('id' => $this->categoria->id), array('class'=>'edit'),
+	true, array('class'=>'edit disabled')) ?>
+<?=(!models_Categoria::isInUse($this->categoria->id))? $this->actionLink('Eliminar', 'categoria','delete',array('id' => $this->categoria->id), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'delete'),
+	true, array('class'=>'delete disabled')) : '<span class="delete disabled">Eliminar</span>' ?>
+</div>
+<br style="clear: both"/>

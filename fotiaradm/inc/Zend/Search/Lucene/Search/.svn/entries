@@ -1,0 +1,175 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Search/Lucene/Search
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Similarity
+dir
+
+Weight
+dir
+
+QueryEntry
+dir
+
+QueryParserException.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+db5bbede6a7918d837d68f6490d40b8a
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+QueryLexer.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+3d18901c7394229a471f7562706bcf75
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Query.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+cba8742f416b00ec0f020cd497661027
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+QueryToken.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+47627f93a9fa2543afa629a255050bbc
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Highlighter
+dir
+
+QueryHit.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+e7cb44c595d9de414041172d0461d858
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Query
+dir
+
+QueryParser.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+de4859d8b1a445a6b5a8b4e7554f749d
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Similarity.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+29df1ef41a3e5735442e911d1346203b
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Weight.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+27a1aa9bd47eb0cf041473a058f8b1dd
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+QueryParserContext.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+ec65ed6a0965640271dbde44a7d7ffff
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+QueryEntry.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+440a5caede06305f6e8bcec63881efa9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+BooleanExpressionRecognizer.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+06ae7f1384adc80084117f041c1d9abe
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

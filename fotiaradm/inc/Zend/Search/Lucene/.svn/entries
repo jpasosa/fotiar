@@ -1,0 +1,175 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Search/Lucene
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Analysis
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+f84e4f79d9f9ae4ed71a8879b68e7278
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Interface.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+8f12e33249129ce35d8b0ed33ca8859f
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+MultiSearcher.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+8f2786ee8a0277cd42b1319741f8842b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+TermStreamsPriorityQueue.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+028ab8f4f916be791d66efbffd7fdb9e
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Storage
+dir
+
+Document.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+a08a5e9b75285c9450d235699e8ebd7b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Search
+dir
+
+Index
+dir
+
+Proxy.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+c17ef5b4da26fe5cdff64bab74fc1a0c
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+LockManager.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+02d43a1e78937b592ca58fbe5bd114bd
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Field.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+5114cd0a01b11e278ea655aa075c3f24
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+FSMAction.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+458fe224cc23e650dc8713477f86f16c
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+FSM.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+b123d34e1f4cb0b7ba8b67a5d8effab8
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+PriorityQueue.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+ae0f2447be3a2a7c9152c3bea1d2b439
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Document
+dir
+

@@ -1,0 +1,36 @@
+<?$usuario_id = $this->element->getElement('usuario_id');?>
+<?$fechainicial = $this->element->getElement('fechainicial');?>
+<?$fechafinal = $this->element->getElement('fechafinal');?>
+<?
+$session = new Zend_Session_Namespace();
+$isAdmin = models_Usuario::findByPK($session->uid)->isAdmin();
+?>
+
+<form enctype="multipart/form-data" method="post" action="">
+	<dl>
+		<?if ($isAdmin):?>
+		<dt><label for="usuario_id"><?=$usuario_id->getLabel() ?></label></dt>
+		<dd>
+			<?=$usuario_id->render()?>
+		</dd>
+		<? endif;?>
+		<dt><label for="fechainicial"><?=$fechainicial->getLabel() ?></label></dt>
+		<dd>
+			<?=$fechainicial->render()?>
+		</dd>
+		<dt><label for="fechafinal"><?=$fechafinal->getLabel() ?></label></dt>
+		<dd>
+			<?=$fechafinal->render()?>
+		</dd>
+		<dt></dt>
+		<dd>
+			<a href="#" onclick="anoCurso();">Año en Curso</a>&nbsp;
+			<a href="#" onclick="mesAnterior();">Mes Anterior</a>
+		</dd>
+
+		<dt></dt>
+		<dd>
+     		<input type="submit" name="submit" id="submit" value="Enviar">
+     	</dd>
+     </dl>
+</form>

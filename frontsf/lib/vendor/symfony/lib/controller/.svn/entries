@@ -1,0 +1,67 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/controller
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+default
+dir
+
+sfWebController.class.php
+file
+
+
+
+
+2011-10-11T20:50:28.000000Z
+b1da5d639e9533bb84cef8c7bec086e4
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+sfController.class.php
+file
+
+
+
+
+2011-10-11T20:50:28.000000Z
+63b08b63d0faefe09e7c99eaa60c16a0
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+sfFrontWebController.class.php
+file
+
+
+
+
+2011-10-11T20:50:28.000000Z
+486d0e313ef0b3db6dafd6efc9251eef
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

@@ -1,0 +1,64 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfFormExtraPlugin
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-14T09:21:02.965144Z
+122
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+test
+dir
+
+LICENSE
+file
+
+
+
+
+2011-10-14T17:28:35.000000Z
+4db2c5c669396b6c794f2fe214cb33e8
+2011-10-14T09:21:02.965144Z
+122
+danilo
+
+lib
+dir
+
+bin
+dir
+
+web
+dir
+
+README
+file
+
+
+
+
+2011-10-14T17:28:35.000000Z
+9c80350d278bfbcf24b946d86df8fab6
+2011-10-14T09:21:02.965144Z
+122
+danilo
+

@@ -1,0 +1,76 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/app/views/scripts
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-23T14:38:00.562467Z
+212
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+reporte
+dir
+
+fotografia
+dir
+
+_forms
+dir
+
+tema
+dir
+
+usuario
+dir
+
+common
+dir
+
+contrasena
+dir
+
+categoria
+dir
+
+sesion
+dir
+
+evento
+dir
+
+administracion
+dir
+
+seguridad
+dir
+
+index
+dir
+
+subcategoria
+dir
+
+lugar
+dir
+
+carga
+dir
+

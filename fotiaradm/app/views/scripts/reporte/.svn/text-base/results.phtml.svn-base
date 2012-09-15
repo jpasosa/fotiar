@@ -1,0 +1,47 @@
+<h4>Reportes de Ventas - Desde el <?=$this->fechainicial?> al <?=$this->fechafinal?> </h4>
+<p><?=$this->actionLink('Volver','reporte','index',
+							array(), array('class'=>'back'))?></p>
+						
+<? if (count($this->ItemsReporte)): ?>
+<table class="grid">
+	<thead>
+		<tr>
+			<th>Nombre del Fotógrafo</th>
+			<th># Fotos</th>
+			<th>Precio Total</th>
+			<th>Comisión Total</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<? $odd = false; ?>
+		<? $preciototal = 0; ?>
+		<? $comisiontotal = 0; ?>
+		<?php foreach ($this->ItemsReporte as $ItemReporte):?>
+		<tr class="<?=($odd)?'odd':'even' ?>">
+		<? $odd = !$odd; ?>
+			<td><?=$ItemReporte->nombrefotografo?></td>
+			<td><?=$ItemReporte->cantidadfotos?></td>
+			<td>$ <?=round($ItemReporte->preciototal,2)?></td>
+			<td>$ <?=round($ItemReporte->comisiontotal,2)?></td>
+			<td>
+				<?=$this->actionLink('Detalle','reporte','details',
+							array('fechainicial' => $this->fechainicial,
+								  'fechafinal' => $this->fechafinal,
+								  'fotografo' => $ItemReporte->fotografo_id), array('class'=>'view'))?>
+			</td>
+		</tr>
+		<? $preciototal = $preciototal + $ItemReporte->preciototal;?>
+		<? $comisiontotal = $comisiontotal + $ItemReporte->comisiontotal; ?>
+		<?php endforeach;?>
+		<tr>
+			<td colspan='5' class="gridLast"></td>
+		</tr>
+	</tbody>
+</table>
+<h4>Total Vendido: $ <?=round($preciototal,2)?></h4>
+<h4>Total Comisiones: $ <?=round($comisiontotal,2)?></h4>
+
+<? else: ?>
+	<br/><br/><p class="message">(no se han registrado ventas para el período especificado)</p>
+<? endif;?>

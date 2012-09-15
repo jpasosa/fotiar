@@ -1,0 +1,35 @@
+sfGuardUser:
+  User_admin:
+    first_name:     John
+    last_name:      Doe
+    email_address:  john.doe@gmail.com
+    username:       admin
+    password:       admin
+    is_super_admin: true
+    Groups:         [Group_admin]
+  Danilo:
+    first_name:     Danilo
+    last_name:      Frid
+    email_address:  danilus@gmail.com
+    username:       danilo
+    password:       testing
+    is_super_admin: false
+    Groups:         [Group_admin]    
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission
+
+sfGuardUserProfile:
+  Danilo_profile:
+    User: Danilo
+    email_new: danilus@gmail.com
+    firstname: Danilo
+    lastname: Frid

@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfForkedDoctrineApplyPlugin/lib/task
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+cleanNamesTask.class.php
+file
+
+
+
+
+2011-10-26T14:42:48.000000Z
+d211da4679829a13d6dd34d415ef51ea
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+cleanValidationCodesTask.class.php
+file
+
+
+
+
+2011-10-26T14:42:48.000000Z
+8e287e5ca248e160bbed7c298cb0929f
+2011-10-22T23:11:01.262689Z
+130
+clodo
+

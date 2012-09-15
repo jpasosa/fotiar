@@ -1,0 +1,121 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Iterator.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+6af2dc186b08c20670a1c4708f5403b0
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+State
+dir
+
+Exception.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+91ed785f971306274c069e4e199d040a
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Filter
+dir
+
+Listener
+dir
+
+Abstract.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+6a14836a5a0d2e2b99698b322b47e9ba
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+UnknownPropertyException.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+6b4e8d25af41726c3973dcec7d6328bc
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Filter.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+2806de337e237b4db87c6ad08359e558
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Listener.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+95cb05b172bc3bd29e0a436cd1c5fc54
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Generator.php
+file
+
+
+
+
+2011-10-11T20:50:38.000000Z
+92a37b78233b5d286265c96bcb0dccdd
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

@@ -1,0 +1,202 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Mock.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+4d8cf470dc2c2a73b3725beccf038d9d
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Profiler
+dir
+
+Exception.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+bdd18d88b4df53fd46f534907dda1194
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Mssql.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+3ea2d239f9ae1a30e23e25cfc13ae874
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Pgsql
+dir
+
+Sqlite.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+a66a35d0b753a2427b98a149628e4c0c
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Statement.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+a8abe18c42439401c85ec74ffd3c994b
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Mysql.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+290d27d051ff06f45580188ce4e59419
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Oracle.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+afbfd7b9361a65720c1ab08391fbcc6e
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+UnitOfWork.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+20fc5c20537628050e2ba0868f671d59
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Db2.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+3ab9fa2e55f1da0c00cdefff459c7b9f
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Mssql
+dir
+
+Sqlite
+dir
+
+Mysql
+dir
+
+Oracle
+dir
+
+Profiler.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+9cc8392f0bc14283ee3cecc1362c2688
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Module.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+13fec6d8202d3fcb705fd7c52247694f
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Pgsql.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+233ddcc82aa2c4559fa742c84db7c059
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Common.php
+file
+
+
+
+
+2011-10-11T20:50:39.000000Z
+0ee082c281fc9f24cc36afab809a9eb1
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

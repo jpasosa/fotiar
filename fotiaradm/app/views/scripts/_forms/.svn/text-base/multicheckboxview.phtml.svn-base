@@ -1,0 +1,26 @@
+<?php
+    $elem = $this->element;
+    $elemName = $elem->getName();
+    $values = $elem->getValue();
+    $cantFilas = 0;
+?>
+<dt id="<?=$elemName?>-label"><label for="<?=$elemName?>" class="optional"><?=$elem->getLabel()?></label></dt>
+<dd id="<?=$elemName?>-element">
+<table>
+	<tr>
+		<? foreach($elem->getMultiOptions() as $option=>$value): ?>
+		<? $cantFilas = $cantFilas + 1?>
+		<td width="25%">
+			<label for="<?=$elemName?>-<?=$option?>">
+				<input type="checkbox" name="<?=$elemName?>[]" id="<?=$elemName?>-<?=$option?>" value="<?=$option?>" <? if($values && in_array($option, $values)){ echo ' checked="checked"'; }?> /><?=$value?>
+			</label>
+		</td>
+		<? if($cantFilas % 4 == 0):?>
+	</tr>
+	<tr>
+		<? endif ;?>	
+		<? endforeach;?>
+	</tr>
+</table>
+
+</dd>

@@ -1,0 +1,55 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Search
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Lucene.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+9864c91cc0a65d39bbf6b9b5d50ae94d
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+58526a8b10d9212b6c0feda016f36d22
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Lucene
+dir
+

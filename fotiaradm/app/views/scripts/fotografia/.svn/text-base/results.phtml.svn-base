@@ -1,0 +1,98 @@
+<? 
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fotografia.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/jquery-1.4.3.min.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fancybox/jquery.fancybox-1.3.4.pack.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fancybox/jquery.mousewheel-3.0.4.pack.js');
+$this->headLink()->appendStylesheet($this->baseUrl . 'scripts/fancybox/jquery.fancybox-1.3.4.css');
+?>
+<form id="form_catalogar" enctype="application/x-www-form-urlencoded" action="" method="post">
+			<?=$this->actionLink('Volver a la búsqueda', 'fotografia', 'index', array('id'=> $this->busqueda))?>
+		<? if (count($this->fotografias)): ?>
+			<?=$this->form->submit?>
+		<?endif;?>
+<br/>
+<? if (count($this->fotografias)): ?>
+	<?$fechacorte = ''?>
+	<strong>Cantidad de Fotografías encontradas: <?= count($this->fotografias) ?></strong> - Seleccionar Todas <?=$this->form->getElement('selectall')?>
+	<? foreach($this->fotografias as $f):?>
+	<? if ($fechacorte != substr($f->taken,0,10)):?>
+		<? $fechacorte = substr($f->taken,0,10); ?>
+		<h2 style="border-width: 1px; border-color: #9A9A63; border-top: solid; text-align:center; margin=0;">
+		Fecha: <?=str_replace(':','/',substr($f->taken,0,10)); ?>&nbsp;</h2>
+	<? endif;?>
+		<div class="picturearea">
+		  <div class="check"><?=$this->form->getElement('c'.$f->id)?></div>
+		  <div class="picture">
+		  	<div class="image">
+		  		<img id="i<?=$f->id?>img" src="<?=$this->baseUrl.$this->img_folder.'t'.$f->nombre_archivo.'?'.strtotime(models_Fotografia::lastUpdate($f))?>" alt="" style='max-width:<?=$this->thumb_max_width?>px;max-height: <?=$this->thumb_max_width?>px' class="img-shadow" />
+		  		<br style="clear:both" />
+		  	</div>
+			<br/>
+		    <div class="pictureactions">
+				<?=$this->actionLink('','fotografia','rotate',array('id' => $f->id,'dir'=>'CW','control'=> $this->control,'act'=>$this->act,'busqueda'=>$this->busqueda), array('class' => 'rotateleft')) ?>
+	            <?=$this->actionLink('','fotografia','delete',array('id' => $f->id,'control'=> $this->control,'act'=>$this->act,'busqueda'=>$this->busqueda), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'deletepict')) ?>
+		  <? if(!$f->sesion_id): ?>
+	            <?=$this->actionLink('','fotografia','edit',array('id' => $f->id, 'busqueda'=> $this->busqueda), array('class' => 'editpict')) ?>
+	      <? else:?>
+				<span class="edit disabled">Editar</span>
+	      <? endif;?> 
+	            <a rel="gallery" id="a<?=$f->id?>anc" href="<?=$this->baseUrl.$this->img_folder.$f->nombre_archivo?>" title="<?=$f->nombre_archivo?>" style='max-width:<?=$this->thumb_max_width?>px;max-height: <?=$this->thumb_max_width?>px' class="viewpicture" ></a>
+	            <a id="inline<?=$f->id?>" href="#exif<?=$f->id?>" class="exifinfo"></a>
+	            <?=$this->actionLink('','fotografia','rotate',array('id' => $f->id,'dir'=>'NCW', 'control'=> $this->control,'act'=>$this->act,'busqueda'=>$this->busqueda), array('class' => 'rotateright')) ?>
+	            <br style="clear:both" /><br style="clear:both" />
+			</div>
+		  </div>
+		  <div class="pictureinfo">
+			  <dl class="viewpict">
+		          <dt>Fotógrafo:</dt>
+	              <dd><?= models_Usuario::findByPK($f->usuario_id); ?>&nbsp;</dd>
+	              <dt>Fecha de Captura:</dt>
+                  <dd><?= $f->taken; ?>&nbsp;</dd>
+		  <? if(!$f->sesion_id): ?>
+		          <dt>Categoria:</dt>
+	              <dd><?= models_Categoria::findByPK($f->categoria_id); ?>&nbsp;</dd>
+	              <dt>Subcategoria:</dt>
+	              <dd><?= models_Subcategoria::findByPK($f->subcategoria_id); ?>&nbsp;</dd>
+	              <dt>Etiquetas de Tema:</dt>
+	              <dd><?= implode(', ',models_FotografiaTema::findAllFromFotografiaDescripcion($f->id)); ?>&nbsp;</dd>
+	              <dt>Etiquetas de Lugar:</dt>
+	              <dd><?= implode(', ',models_FotografiaLugar::findAllFromFotografiaDescripcion($f->id)); ?>&nbsp;</dd>
+	      <? else:?>
+		          <dt>Sesión:</dt>
+	              <dd><?= models_Sesion::findByPK($f->sesion_id); ?>&nbsp;</dd>
+	      <? endif;?> 
+	              <dt>Precio:</dt>
+	              <dd>$<?= str_replace('.',',', $f->precio); ?>&nbsp;</dd>
+	            </dl>
+		  </div>
+		  <br style="clear:both" />
+		</div>
+		<div style="display:none">  
+          <div id="exif<?=$f->id?>">
+          		<h3>Información EXIF</h3>
+            	<dl class="viewpict">
+                    <dt><strong>Nombre de Archivo</strong></dt>
+                    <dd><?= $f->nombre_archivo; ?>&nbsp;</dd>
+                    <dt><strong>Cámara</strong></dt>
+                    <dd><?= $f->camera; ?>&nbsp;</dd>
+                    <dt><strong>Modelo</strong></dt>
+                    <dd><?= $f->model; ?>&nbsp;</dd>
+                    <dt><strong>Tiempo de Exposición</strong></dt>
+                    <dd><?= $f->exposuretime; ?>&nbsp;</dd>
+                    <dt><strong>Velocidad ISO</strong></dt>
+                    <dd><?= $f->isospeed; ?>&nbsp;</dd>
+                    <dt><strong>Distancia Focal</strong></dt>
+                    <dd><?= $f->focallength; ?>&nbsp;</dd>
+                    <dt><strong>Fecha de Captura</strong></dt>
+                    <dd><?= $f->taken; ?>&nbsp;</dd>
+                    <dt><strong>Tipo MIME</strong></dt>
+                    <dd><?= $f->mimetype; ?>&nbsp;</dd>
+                </dl>
+         	</div>
+         </div>
+	<? endforeach; ?>  
+</form>	
+<? else: ?>
+	<br/><br/><p class="message">(no se han encontrado fotos)</p>
+<? endif; ?>
+ 

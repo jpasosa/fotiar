@@ -1,0 +1,73 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Test/PHPUnit/Db
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Metadata
+dir
+
+Operation
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+13e76466804a507a7665f18ea4d2482d
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+DataSet
+dir
+
+Connection.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+3cc011e0701b646cfb3f6081d08af629
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+SimpleTester.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+2b2416d43568543d7a5cedf35707c674
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

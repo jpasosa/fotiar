@@ -1,0 +1,288 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+FtpDeployTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+e0bf821c23bc918c3e156c7cd1e0f477
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+ManifestTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+0121af3f4232dbc5dfa6a020b2adf823
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+pdo
+dir
+
+ioncube
+dir
+
+PhpLintTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+e15d50481962f44257f43856fb6dfdbe
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+phpunit
+dir
+
+JslLintTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+1564e0b2303850fc85f4e0e7049c4599
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+SmartyTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+1646920083a25b642a0aac7e90d6bbc8
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+simpletest
+dir
+
+coverage
+dir
+
+MailTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+166636bcda3470f660946bbb3f046612
+2011-10-11T11:24:46.160574Z
+116
+danilo
+has-props
+
+PearPackage2Task.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+e3d8c5229137cafca9165a3a1e788283
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+TarTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+1c9277030a4947ef3edcbda736171363
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+XmlLintTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+62cdec8253969c69788a256b2c9660d3
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+dbdeploy
+dir
+
+UntarTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+cede963da033e122b38fb1d4be094e9b
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+pearpackage
+dir
+
+PackageAsPathTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+6978d3643ee11dfd4a875dc5875d2968
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+CapsuleTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+a4453f3a1ebf7265f885ff8d77ad0656
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+svn
+dir
+
+ScpSendTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+1e5a80565d2636b5a8155ceef77a88b4
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+PhpCodeSnifferTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+5c59a3dd0aa384b81d34ed1c65320fd6
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+creole
+dir
+
+ZendCodeAnalyzerTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+dd8f095e9d1e7aebec9ab8deeb636024
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+ZipTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+9a2cac58cb120264ccc40adbcea57df3
+2011-10-11T11:24:46.160574Z
+116
+danilo
+has-props
+
+PearPackageTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+dd9bcf0e9c3b9857cd30165036e59bb4
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+phpdoc
+dir
+
+UnzipTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+ea1713206d2c7c9646b2f799a613b522
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+ExtractBaseTask.php
+file
+
+
+
+
+2011-10-11T20:50:42.000000Z
+63052b04fba37f9a156a0fcab5ebf4d2
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

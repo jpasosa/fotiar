@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Fotiar
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [main.css, ui-lightness/jquery-ui-1.8.16.custom.css, datePicker.css, jquery.multiselect.css, jquery.multiselect.filter.css]
+# Tuve que agregar a mano SelectDependiente.min.js porque al parecer no lo estaba cargando en ninún lado.
+  javascripts:    [jsddm.js, datepicker.js, jquery-ui-i18n-it.js, jquery-ui-1.8.16.custom.min.js, /sfDependentSelectPlugin/js/SelectDependiente.min.js, jquery.multiselect.min.js, jquery.multiselect.filter.js]#jquery.js,
+
+  has_layout:     true
+  layout:         layout

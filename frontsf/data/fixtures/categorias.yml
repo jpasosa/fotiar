@@ -1,0 +1,51 @@
+Categoria:
+  cat01:
+    descripcion: Castor 2011
+  cat02:
+    descripcion: Catedral
+  cat03:
+    descripcion: Surf
+  cat04:
+    descripcion: Turismo Aventura
+  cat05:
+    descripcion: Skate
+  cat06:
+    descripcion: Prueba 6
+  cat07:
+    descripcion: Prueba Sechi
+  familias:
+    descripcion: Familias
+  varios:
+    descripcion: Varios
+
+Subcategoria:
+  scat0101:
+    Categoria: cat01
+    descripcion: Pose
+  scat0102:
+    Categoria: cat01
+    descripcion: Accion
+  scat0103:
+    Categoria: cat01
+    descripcion: Paisaje
+  scat0201:
+    Categoria: cat02
+    descripcion: Pose
+  scat0202:
+    Categoria: cat02
+    descripcion: Accion
+  scat0203:
+    Categoria: cat02
+    descripcion: Paisaje
+  scat0301:
+    Categoria: cat03
+    descripcion: subcat x
+  scat0302:
+    Categoria: cat03
+    descripcion: subcat y
+  scat0303:
+    Categoria: cat03
+    descripcion: subcat z
+  varios_perro:
+    Categoria: varios
+    descripcion: perro

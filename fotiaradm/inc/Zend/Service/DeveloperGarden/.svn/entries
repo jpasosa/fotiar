@@ -1,0 +1,175 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Service/DeveloperGarden
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+LocalSearch
+dir
+
+BaseUserService.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+5c2f329de9d667e6a3a486a6be4aa85b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+fd28232c1023f8548a326f6cfbd108a4
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+SecurityTokenServer.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+dae868b5c04bd4fb0d94053e27f3e765
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+IpLocation.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+e45c3fc1f200193cc87593cc668ad31b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+VoiceCall.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+b0dcbc8cf425d5e656a369bab4f564fb
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Request
+dir
+
+ConferenceCall.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+d54127b8009c9d9f5d2ccb04fd3c4338
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+BaseUserService
+dir
+
+Response
+dir
+
+SecurityTokenServer
+dir
+
+Credential.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+bb7f22af03186c9e4501f79ad0f69552
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+IpLocation
+dir
+
+SendSms.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+72c7cbd986c32307f0b5ea31eb3bdb21
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+ConferenceCall
+dir
+
+SmsValidation.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+f54f1b0fd856f26791be959f241612b4
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+LocalSearch.php
+file
+
+
+
+
+2011-11-21T20:04:43.000000Z
+95dd0d98a66013fa06561ceef8d2e86e
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Wsdl
+dir
+
+Client
+dir
+

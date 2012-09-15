@@ -1,0 +1,14 @@
+<?
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fotografia_index.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/jquery.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/datepicker/datepicker.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/datepicker/i18n/ui.datepicker-es.js');
+$this->headLink()->appendStylesheet($this->baseUrl . 'styles/datepicker.css');
+$this->headLink()->appendStylesheet($this->baseUrl . 'styles/fancy.css');
+?>
+<p>
+<?=$this->actionLink('Volver a Búsqueda de fotografías', 'fotografia','index',array(), array('class'=>'back')) ?>&nbsp;
+<?=$this->actionLink('Buscar fotografías sin etiquetas', 'fotografia','untagged',array(), array('class'=>'untagged')) ?>
+<br style="clear:both" />
+</p>
+<?=$this->form;?>

@@ -1,0 +1,67 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/config
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfDoctrinePluginConfiguration.class.php
+file
+
+
+
+
+2011-10-11T20:50:35.000000Z
+00c76f45806eda705db4dd6e9808c8a4
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+installer.php
+file
+
+
+
+
+2011-10-11T20:50:35.000000Z
+fc2353f4876cec49ae345b9204d2a37b
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+skeleton
+dir
+
+autoload.yml
+file
+
+
+
+
+2011-10-11T20:50:35.000000Z
+39dd746f113e32de335f74baad61049d
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

@@ -1,0 +1,736 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+File
+dir
+
+Dom
+dir
+
+Log
+dir
+
+Session
+dir
+
+Navigation.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+e3446e23f7612e42cb05cb3a5eb9390f
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Form.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+ac757336c69e9a72a90d39499c29fdd3
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Dojo
+dir
+
+Loader.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+05ee1e1bd5308d0d965843a36dd60219
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Service
+dir
+
+Crypt
+dir
+
+Soap
+dir
+
+Feed
+dir
+
+Config
+dir
+
+Pdf
+dir
+
+Serializer
+dir
+
+Debug.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+482cea9f41f57a18bd6a3ce093b05228
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+OpenId
+dir
+
+Http
+dir
+
+Validate.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+7b313a086180a42e501220ada0d045fb
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Ldap
+dir
+
+Gdata
+dir
+
+Oauth
+dir
+
+CodeGenerator
+dir
+
+Controller
+dir
+
+Paginator
+dir
+
+Db
+dir
+
+ProgressBar
+dir
+
+Cache.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+5ed88060c5fc976cdc220c200be64523
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Application.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+34b3f17abefa7b9165f0fb00830c8137
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Currency
+dir
+
+TimeSync
+dir
+
+Translate
+dir
+
+Memory.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+e1f3e59c65176b0bc8236d988866704a
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Json.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+7fa57e3ff260217627071dbc36891f0c
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Uri
+dir
+
+Acl
+dir
+
+Barcode
+dir
+
+Locale
+dir
+
+Markup
+dir
+
+Auth
+dir
+
+Server
+dir
+
+Log.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+8cdb3c5f229aee8aec0ef7702808b3ea
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Session.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+df053d9288981510272d34b291074101
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+View
+dir
+
+Tag
+dir
+
+Layout
+dir
+
+Date
+dir
+
+Tool
+dir
+
+Test
+dir
+
+Dojo.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+182d578ada7fe76e8c4aba2870de6ee3
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Mail
+dir
+
+Queue
+dir
+
+Filter
+dir
+
+Crypt.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+c21915cdda76172d2389238fa05d20bd
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Mime
+dir
+
+Feed.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+679f17d842c903fd34198e96ad80b481
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Reflection
+dir
+
+Config.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+3e728a6d9d3edb982745eb6d1e9b3c4b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Registry.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+a3259824608a52b57c0367b3d5c07530
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Serializer.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+a08bda038a022462f3f0f33326575c06
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Pdf.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+4b15e8e36a58deb5b9275c73702a05b2
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Navigation
+dir
+
+Measure
+dir
+
+Console
+dir
+
+Captcha
+dir
+
+Form
+dir
+
+OpenId.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+5201559b87059423e6acf77c34c337ac
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+XmlRpc
+dir
+
+Wildfire
+dir
+
+Loader
+dir
+
+Ldap.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+da53311c978732f9b4031fac6a506caa
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Gdata.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+37c98765a106296f5ff6ed3e45b0583a
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Oauth.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+823a9fb4a094bd65bce243234877ee19
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Paginator.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+91a49dcfda8811e15e700d8862c1bea6
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Db.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+ed88de66de6d498e5b75702104a6b359
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+ProgressBar.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+3e2ba95523bbda6b2da726fd0da86293
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Currency.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+011bcbe0d8cc6ca1d29141498b8e0a88
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+TimeSync.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+24a6706d06f33907a47470e3ad9ed010
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Translate.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+953b44aa2820fb89be776360fee66a5b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Text
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+55ee8977abba3e9c8c56937432434c4c
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Markup.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+b0a71259a842acf26a9af5689b2f1734
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Locale.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+f125f8e35a6ec45f5f7838543889b21d
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Barcode.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+6be469d08ae3b38074735d7dd694103e
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Acl.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+dc582ac58e6c313617b3b9325ff634df
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Uri.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+392c5a2f26967514e9e90a177674a5a6
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Auth.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+79b7f1185af7d883c10f9685409cec9b
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Validate
+dir
+
+View.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+cf8d96710ec6a7ac76a7fc8230c39511
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Amf
+dir
+
+Application
+dir
+
+Cache
+dir
+
+Layout.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+88d5a714d377495c890c64865e9500ba
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Date.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+8b7050086ca35179f962034c355bed76
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Search
+dir
+
+Memory
+dir
+
+Mail.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+936ad41b7ecb0142b1c3e56d560eb3bc
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Json
+dir
+
+Queue.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+b3321807a7c1e8691b8a4efefd5e3197
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+InfoCard.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+9c2cb916b812e2d9e4832dae1a1fdac6
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Filter.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+b19dfd6b8bc07132ef7d29245b5ee1f4
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Version.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+3c3243c8f804c8710e31bb5946ffc2e5
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Rest
+dir
+
+Mime.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+cf7f5e8aaefc81cbae648f939bceb9b3
+2011-11-19T06:17:41.332353Z
+176
+danilo
+

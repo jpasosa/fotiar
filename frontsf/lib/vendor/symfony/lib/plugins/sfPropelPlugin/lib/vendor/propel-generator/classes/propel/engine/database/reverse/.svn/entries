@@ -1,0 +1,67 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/database/reverse
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+mssql
+dir
+
+sqlite
+dir
+
+SchemaParser.php
+file
+
+
+
+
+2011-10-11T20:50:44.000000Z
+e804d5e0089bcd20ab76c19c33393955
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+mysql
+dir
+
+oracle
+dir
+
+pgsql
+dir
+
+BaseSchemaParser.php
+file
+
+
+
+
+2011-10-11T20:50:44.000000Z
+fe515c8a0a02a937b08f39aa895dacd2
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

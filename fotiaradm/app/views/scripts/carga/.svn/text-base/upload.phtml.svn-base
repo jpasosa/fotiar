@@ -1,0 +1,71 @@
+<?php
+$this->headLink()->appendStylesheet($this->baseUrl . 'scripts/uploadify/uploadify.css');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/uploadify/swfobject.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/uploadify/jquery.uploadify.v2.1.4.min.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/flash_detect/flash_detect.js');
+?>
+
+
+<?$session = new Zend_Session_Namespace();?>
+<h4>Paso 2: Seleccione las fotos que incorporará al sistema</h4>
+<dl class="zend_form">
+<? if ($this->categoria_id != ''):?>
+	<dt id="categoria_id-label"><label for="categoria_id" class="required">Categoría</label></dt>
+	<dd id="categoria_id-element"><?=models_Categoria::findByPK($this->categoria_id)?>&nbsp;</dd>
+	<dt id="subcategoria_id-label"><label for="subcategoria_id" class="optional">Sub Categoría</label></dt>
+	<dd id="subcategoria_id-element"><?=models_Subcategoria::findByPK($this->subcategoria_id)?>&nbsp;</dd>
+<? else:?>
+	<dt id="sesion_id-label"><label for="sesion_id" class="required">Sesión de Fotos</label></dt>
+	<dd id="sesion_id-element"><?=models_Sesion::findByPK($this->sesion_id)?>&nbsp;</dd>
+<? endif?>
+	<dt id="submit-label">&nbsp;</dt>
+	<dd id="submit-element">
+		<div id="upload">
+			<input id="file_upload" name="file_upload" type="file" />
+		</div>
+
+		<div id="uploadbutton">
+			<a href="javascript:$('#file_upload').uploadifyUpload();">Subir las Fotos</a>
+		</div>
+	</dd>
+</dl>
+<div id="flashmsg">
+	<a href="http://www.adobe.com/go/getflashplayer">
+           <img src="/styles/img/get_adobe.jpg" alt="Get Adobe Flash player" />
+        </a>
+        <h3>Debe instalar el Adobe Flash Player para poder cargar fotos</h3>
+</div>
+<script type="text/javascript">
+<!--
+$(document).ready(function() {
+	  $('#file_upload').uploadify({
+	    'uploader'  		: '/scripts/uploadify/uploadify.swf',
+	    'script'    		: '/uploadify/upload',
+	    'cancelImg' 		: '/scripts/uploadify/cancel.png',
+	    'folder'    		: '/fotos',
+	    'auto'      		: false,
+		'fileExt'     		: '*.jpg',
+		'fileDesc'    		: 'Archivos JPG',
+		'multi'       		: true,
+		'transparent' 		: 'transparent',
+		'width'				: '181',
+		'height'			: '43',
+	  	'removeCompleted' 	: false,
+	  	'scriptData'		: { 'usuario': '<?=$session->uid?>',
+	  							'categoria_id': '<?=$this->categoria_id?>',
+	  							'subcategoria_id': '<?=$this->subcategoria_id?>',
+	  							'sesion_id': '<?=$this->sesion_id?>',
+	  							'carga_id': '<?=$this->carga_id?>'
+		  							},
+	  	'onAllComplete' 	: function(event,data) {
+	  		window.location =  getUrl('fotografia','revision','carga_id=<?=$this->carga_id?>');}
+	  });
+
+		if(!FlashDetect.installed){
+			$("#flashmsg").css('visibility','visible');
+			$("#flashmsg").css('height','40px');
+	  	
+		}
+	});
+//-->
+</script>

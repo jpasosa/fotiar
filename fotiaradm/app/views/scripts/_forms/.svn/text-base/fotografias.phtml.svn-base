@@ -1,0 +1,62 @@
+<?
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fotografia.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/jquery.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/jquery.fancybox.js');
+$this->headLink()->appendStylesheet($this->baseUrl . 'styles/fancy.css');
+?>
+<? extract($this->element->getElements());?>
+<?$fechacorte = ''?>
+<form id="form_catalogar" enctype="application/x-www-form-urlencoded" action="" method="post">
+		<?=$submit?>
+        <table>
+        <? foreach($this->element->fotografias as $f):?>
+		<? if ($fechacorte != substr($f->taken,0,10)):?>
+			<? $fechacorte = substr($f->taken,0,10); ?>
+			<tr><td colspan='4'><?=str_replace(':','/',substr($f->taken,0,10)); ?></td></tr>
+		<? endif;?>
+          <tr>
+            <td><?=$this->form->getElement($f->id)?></td>
+            <td>
+            	<img id="<?=$f->id?>img" src="<?=$this->baseUrl.$this->img_folder.'t'.$f->nombre_archivo.'?'.strtotime(models_Fotografia::lastUpdate($f))?>" alt="" style='max-width:<?=$this->thumb_max_width?>px;max-height: <?=$this->thumb_max_width?>px' />&nbsp;
+            </td>
+            <td>
+                <dl class="viewpict" >
+                    <dt>Nombre de Archivo</dt>
+                    <dd><?= $f->nombre_archivo; ?>&nbsp;</dd>
+                    <dt>Cámara</dt>
+                    <dd><?= $f->camera; ?>&nbsp;</dd>
+                    <dt>Modelo</dt>
+                    <dd><?= $f->model; ?>&nbsp;</dd>
+                    <dt>Tiempo de Exposición</dt>
+                    <dd><?= $f->exposuretime; ?>&nbsp;</dd>
+                </dl>
+            </td>
+            <td>
+                 <dl class="viewpict" >
+                    <dt>Velocidad ISO</dt>
+                    <dd><?= $f->isospeed; ?>&nbsp;</dd>
+                    <dt>Distancia Focal</dt>
+                    <dd><?= $f->focallength; ?>&nbsp;</dd>
+                    <dt>Fecha de Captura</dt>
+                    <dd><?= $f->taken; ?>&nbsp;</dd>
+                    <dt>Tipo MIME</dt>
+                    <dd><?= $f->mimetype; ?>&nbsp;</dd>
+                </dl>
+
+            </td>
+          </tr>
+          <tr>
+            <td >&nbsp;</td>
+            <td >
+				<?=$this->actionLink('Izquierda','fotografia','rotate',array('id' => $f->id,'dir'=>'CW','control'=> $this->control,'act'=>$this->act ), array(/*, 'class' => 'delete'*/)) ?>&nbsp;
+				<?=$this->actionLink('Eliminar','fotografia','delete',array('id' => $f->id,'control'=> $this->control,'act'=>$this->act  ), array('onclick' =>'if(confirmDelete()){return true}else{return false}'/*, 'class' => 'delete'*/)) ?>&nbsp;
+				<?=$this->actionLink('Editar','fotografia','edit',array('id' => $f->id )/*, array('class' => 'edit')*/) ?>&nbsp;
+            	<a rel="gallery" id="<?=$f->id?>anc" href="<?=$this->baseUrl.$this->img_folder.$f->nombre_archivo?>" title="<?=$f->nombre_archivo?>" style='max-width:<?=$this->thumb_max_width?>px;max-height: <?=$this->thumb_max_width?>px' class="viewpicture" >Ver</a>&nbsp;
+				<?=$this->actionLink('Derecha','fotografia','rotate',array('id' => $f->id,'dir'=>'NCW', 'control'=> $this->control,'act'=>$this->act  ), array(/*, 'class' => 'delete'*/)) ?>&nbsp;
+            </td>
+            <td colspan='2'>&nbsp;</td>
+          </tr>
+        <? endforeach; ?>  
+        </table>
+        <?=$submit?>
+</form>

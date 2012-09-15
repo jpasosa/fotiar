@@ -1,0 +1,6 @@
+<?php
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fotografia_cargasesion.js');
+?>
+<?=$this->actionLink('Cargar Fotos por Categoria','carga','index', array(), array('class' => 'cargarporcategoria')) ?>&nbsp;
+<h4>Paso 1: Seleccione o agregue la sesión de las fotos que incorporará al sistema</h4>
+<?=$this->form;?>

@@ -1,0 +1,55 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/model/doctrine/sfForkedDoctrineApplyPlugin
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-12-06T16:16:43.020974Z
+230
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfGuardUserProfile.class.php
+file
+
+
+
+
+2011-10-26T14:42:52.000000Z
+b665778371ee4013f57f0c4f8f964562
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+base
+dir
+
+sfGuardUserProfileTable.class.php
+file
+
+
+
+
+2011-10-26T14:42:52.000000Z
+70188452b99b5222857b44345a2b15d0
+2011-10-22T23:11:01.262689Z
+130
+clodo
+

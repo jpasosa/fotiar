@@ -1,0 +1,58 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Auth
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Adapter
+dir
+
+Storage
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:00.000000Z
+3b1800b92316bea38876eeaab7657b86
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Result.php
+file
+
+
+
+
+2011-11-21T20:05:00.000000Z
+b509b455d8e7d3a4a31c1335159d5950
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

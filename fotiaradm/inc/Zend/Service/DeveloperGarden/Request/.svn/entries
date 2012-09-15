@@ -1,0 +1,73 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Service/DeveloperGarden/Request
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+LocalSearch
+dir
+
+IpLocation
+dir
+
+RequestAbstract.php
+file
+
+
+
+
+2011-11-21T20:04:42.000000Z
+9203e64074ed473df3ef9582959cbcf9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+ConferenceCall
+dir
+
+VoiceButler
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:42.000000Z
+6aedf3fa306040138c30c15d3697ef24
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+BaseUserService
+dir
+
+SendSms
+dir
+
+SmsValidation
+dir
+

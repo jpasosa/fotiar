@@ -1,0 +1,70 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Session
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Namespace.php
+file
+
+
+
+
+2011-11-21T20:04:40.000000Z
+b2bfeebfdc04e12cbe1522987cf2ae8c
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:40.000000Z
+3f546f6cc1d896657c3ebdc21a2a6ad5
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Validator
+dir
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:04:40.000000Z
+f6a39243154c11ee118ba3e7ad6fa437
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+SaveHandler
+dir
+

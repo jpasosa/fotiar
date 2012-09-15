@@ -1,0 +1,79 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Amf/Value
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+MessageHeader.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+a39ad98fd5525bd2af952465a0d87f66
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+ByteArray.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+e881b9ed44160cf6022777b7ee735b63
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+MessageBody.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+4e0db608a23213c1167740546589c36e
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+TraitsInfo.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+3f3c0850773eab47c6da8a4ba5a600dd
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Messaging
+dir
+

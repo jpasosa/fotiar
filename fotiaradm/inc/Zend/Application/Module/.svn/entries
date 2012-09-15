@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Application/Module
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Bootstrap.php
+file
+
+
+
+
+2011-11-21T20:05:06.000000Z
+a7835ca95c8a9f5508241360d0ecbc40
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Autoloader.php
+file
+
+
+
+
+2011-11-21T20:05:06.000000Z
+1541eafb66b95be4ef35e2233a8cc6b8
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

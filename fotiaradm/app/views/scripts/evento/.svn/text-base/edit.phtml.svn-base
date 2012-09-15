@@ -1,0 +1,26 @@
+<?
+$this->headScript()->appendFile($this->baseUrl . 'scripts/evento_edit.js');
+?>
+<h3>Evento <?php echo $this->evento->id ?> - Edición</h3>  
+<p>
+<?=$this->actionLink('Volver al listado', 'evento', 'index', array(), array('class'=>'back')) ?>
+<br style="clear:both" />
+<?= $this->form; ?> 
+<br style="clear:both" />
+<div style="width:10%;float:left;text-align:center;">
+	<h4>Ícono</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$this->evento->nombre_icono.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Espanol</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$this->evento->nombre_archivo_es.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Portuges</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$this->evento->nombre_archivo_pt.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Inglés</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$this->evento->nombre_archivo_en.'?'.rand();?>"  />
+</div>
+<br style="clear:both" />

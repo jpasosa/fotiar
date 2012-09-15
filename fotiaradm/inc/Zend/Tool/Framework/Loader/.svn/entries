@@ -1,0 +1,79 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Tool/Framework/Loader
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Interface.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+6e3d57b3e079ddb5d2260fe8c29db91d
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+IncludePathLoader
+dir
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+15cb53c6cbd1cead79715dcce8f31425
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+IncludePathLoader.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+c24a46c1ba1b5b682a483d0f48ab1b8b
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+BasicLoader.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+005264c46746c498058603a921c66693
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

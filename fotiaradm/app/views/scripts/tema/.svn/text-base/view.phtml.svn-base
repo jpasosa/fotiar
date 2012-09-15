@@ -1,0 +1,18 @@
+<h3>Etiqueta de Tema - Detalle</h3>
+<p>
+<?=$this->actionLink('Volver al listado', 'tema', 'index', array(), array('class'=>'back')) ?>
+<br style="clear:both" />
+</p>
+<dl class="view">
+	<dt>Descripción:</dt>
+	<dd><?=$this->escape($this->tema->descripcion) ?>&nbsp;</dd>
+</dl>
+<div class="actions">
+<?=$this->actionLink('Editar', 
+	'tema','edit',
+	array('id' => $this->tema->id), array('class'=>'edit'),
+	true, array('class'=>'edit disabled')) ?>
+<?=(!models_Tema::isInUse($this->tema->id))? $this->actionLink('Eliminar', 'tema','delete',array('id' => $this->tema->id), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'delete'),
+	true, array('class'=>'delete disabled')) : '<span class="delete disabled">Eliminar</span>' ?>
+</div>
+<br style="clear: both"/>

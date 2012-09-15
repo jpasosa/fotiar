@@ -1,0 +1,59 @@
+<?$rol_id = $this->element->getElement('rol_id');?>
+<?$usuario = $this->element->getElement('usuario');?>
+<?$contrasena = $this->element->getElement('contrasena');?>
+<?$contrasena_confirm = $this->element->getElement('contrasena_confirm');?>
+<?$nombre = $this->element->getElement('nombre');?>
+<?$apellido = $this->element->getElement('apellido');?>
+<?$correo = $this->element->getElement('correo');?>
+<?$precio = $this->element->getElement('precio');?>
+<?$comision = $this->element->getElement('comision');?>
+<form enctype="multipart/form-data" method="post" action="">
+	<dl>
+    <dt><label for="rol_id"><?=$rol_id->getLabel() ?></label></dt>
+    <dd>
+      <? if ($this->element->enableRol): ?>
+        <?=$rol_id->render()?>
+      <? else:?>
+        <?=models_Rol::findByPK($rol_id->getValue())?>
+      <? endif; ?>
+    </dd>
+		<dt><label for="usuario"><?=$usuario->getLabel() ?></label></dt>
+		<dd>
+			<?=$usuario->render()?>
+		</dd>
+		<dt><label for="contrasena"><?=$contrasena->getLabel() ?></label></dt>
+		<dd>
+			<div class="description"><?=$contrasena->getDescription() ?></div>
+			<?=$contrasena->render()?>
+		</dd>
+		<dt><label for="contrasena_confirm"><?=$contrasena_confirm->getLabel() ?></label></dt>
+		<dd>
+			<?=$contrasena_confirm->render()?>
+		</dd>
+		<dt><label for="nombre"><?=$nombre->getLabel() ?></label></dt>
+		<dd>
+			<?=$nombre->render()?>
+		</dd>
+		<dt><label for="apellido"><?=$apellido->getLabel() ?></label></dt>
+		<dd>
+			<?=$apellido->render()?>
+		</dd>
+		<dt><label for="correo"><?=$correo->getLabel() ?></label></dt>
+		<dd>
+			<?=$correo->render()?>
+		</dd>
+				<dt><label for="precio"><?=$precio->getLabel() ?></label></dt>
+		<dd>
+			<div class="description"><?=$precio->getDescription() ?></div>
+			<?=$precio->render()?>
+		</dd>
+		<dt><label for="comision"><?=$comision->getLabel() ?></label></dt>
+		<dd>
+			<div class="description"><?=$comision->getDescription() ?></div>
+			<?=$comision->render()?>
+		</dd>
+		<dd>
+     		<input type="submit" name="submit" id="submit" value="Enviar">
+     	</dd>
+     </dl>
+</form>

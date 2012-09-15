@@ -1,0 +1,67 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/form/doctrine/sfDoctrineGuardPlugin
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfGuardPermissionForm.class.php
+file
+
+
+
+
+2011-10-26T14:42:52.000000Z
+503e2b1dccdb2e4717449149a2a72996
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+sfGuardGroupForm.class.php
+file
+
+
+
+
+2011-10-26T14:42:52.000000Z
+126383d94d581cc01308512c6181ce2e
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+sfGuardUserForm.class.php
+file
+
+
+
+
+2011-10-26T14:42:52.000000Z
+ff0902ed95f9b1992db875cde4ce0379
+2011-10-22T23:11:01.262689Z
+130
+clodo
+
+base
+dir
+

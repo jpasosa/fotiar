@@ -1,0 +1,6 @@
+autoload:
+  mercadopago_sdk:
+    name: Mercadopago PHP SDK
+    ext: php
+    path: %SF_LIB_DIR%/vendor/mercadopago
+    recursive: true

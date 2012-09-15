@@ -1,0 +1,85 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/OpenId
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Provider.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+3c13763dd3dd6cfa15b61a761cc26a5e
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Consumer.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+6c701b5a52929ccc55b22345cfec4cc5
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Extension.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+32de99f4db077030c956931efb9d3725
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+986247c1387e56e1b5bd705d87d1b73a
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Provider
+dir
+
+Consumer
+dir
+
+Extension
+dir
+

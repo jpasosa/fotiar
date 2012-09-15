@@ -1,0 +1,112 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Feed/Reader
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Entry
+dir
+
+Collection.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+8a795fb9897ebceb033fd36fd445d25c
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Feed
+dir
+
+FeedSet.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+68d6240e2acb0d85e4c137ffbb67d94a
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+EntryInterface.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+eaaedc02d877a6b90f34c9b34a594e3f
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+FeedInterface.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+4d670aa1e76350b2f851bb97ae36a847
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Collection
+dir
+
+EntryAbstract.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+d58e6390abc97a2d3dedc41cb2609549
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Extension
+dir
+
+FeedAbstract.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+b0e88e674fe2311a4e778001b1838438
+2011-11-19T06:17:41.332353Z
+176
+danilo
+

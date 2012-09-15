@@ -1,0 +1,82 @@
+<?php
+$this->headScript()->appendFile($this->baseUrl . 'scripts/gridsearch.js');
+$grid = $this->grid;
+?>
+<h3>Subcategorías</h3>
+<p><?=$this->actionLink('Volver al listado', 'administracion', 'index', array(), array('class'=>'back'))?></p>
+<p><?=$this->actionLink('Nueva subcategoría', 'subcategoria','edit', array(), array('class'=>'nuevasubcategoria')) ?></p>
+<? if ($grid['dofilter'] == 'false' && count((array)$grid['aData']) == 0 ): ?>
+	<p class="message">(no se han cargado subcategorías)</p>
+<? else: ?>
+	<table class="grid" id="tbl_subcategoria">
+		<thead>
+			<tr>
+				<th>
+					<span class="<?=$grid['categoria_id_className']?>">
+						<a href="#" onclick="setFormValue('categoria:categoria_id', 'grid::order', false);setFormValue('<?=$grid['categoria_id_sense']?>', 'grid::sense', true);">Categoría</a>
+					</span>
+				</th>
+				<th>
+					<span class="<?=$grid['subcategoria_descripcion_className']?>">
+						<a href="#" onclick="setFormValue('subcategoria:subcategoria_descripcion', 'grid::order', false);setFormValue('<?=$grid['subcategoria_descripcion_sense']?>', 'grid::sense', true);">Subcategoría</a>
+					</span>
+				</th>
+				<th>Acciones</th>
+			</tr>
+			<tr id="search_params" class="search_params">
+				<td>
+					<select name="search_categoria:categoria_id" id="search_categoria:categoria_id">
+						<option></option>
+	   					<? foreach ($this->categorias as $value=>$label): ?>
+	   						<? $selected = ( $value == $grid['categoria_id_searchKey']) ? 'selected="selected"' : ''; ?>
+	   						<option value="<?=$value?>" <?=$selected ?>><?=$label?></option>
+	   					<? endforeach; ?>
+					</select>
+				</td>
+				<td>
+					<input type="text" name="search_subcategoria:subcategoria_descripcion" id="search_subcategoria:subcategoria_descripcion" value="<?=$grid['subcategoria_descripcion_searchKey'] ?>">
+				</td>
+				<td class="actions">
+					<div>
+					<a href="#" class="filter" onclick="gridSearch('search_params','grid');return false;">Filtrar</a>
+					<a href="#" class="unfilter" onclick="gridNoSearch('search_params','grid');return false;">Quitar Filtro</a>
+					</div>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+		<? $odd = true; ?>
+		<? foreach ((array)$grid['aData'] as $row): ?>
+			<tr class="<?=($odd)?'odd':'even' ?>">
+			<? $odd = !$odd; ?>
+				<td><?=$this->escape($row['categoria_descripcion']) ?></td>
+				<td><?=$this->escape($row['subcategoria_descripcion']) ?></td>
+				<td class="actions">
+					<div>
+					<?=$this->actionLink('Ver', 
+						'subcategoria','view',
+						array('id' => $row['subcategoria_id']), array('class'=>'view'),
+						true, array('class'=>'view disabled'))?>	
+					<?=$this->actionLink('Editar', 
+						'subcategoria','edit',
+						array('id' => $row['subcategoria_id']), array('class'=>'edit'),
+						true, array('class'=>'edit disabled')) ?>
+					<? if(!models_Subcategoria::isInUse($row['subcategoria_id'])): ?>
+						<?=$this->actionLink('Eliminar', 
+							'subcategoria','delete',
+							array('id' => $row['subcategoria_id']), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'delete'),
+							true, array('class'=>'delete disabled')) ?>
+					<? else: ?> 
+						<span class="delete disabled">Eliminar</span>
+					<? endif; ?>
+					</div>
+				</td>
+			</tr>
+		<? endforeach; ?>
+		<tr><td colspan='3' class="gridLast"></td></tr>
+		</tbody>
+	</table>
+<? endif; ?>
+<?=$this->dataGridPager('grid') ?>
+<?=$this->dataGridSubmit() ?>
+

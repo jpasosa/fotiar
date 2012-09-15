@@ -1,0 +1,957 @@
+Busqueda:
+  columns:
+    usuario_id: { type: integer, notnull: false }
+    categoria_id: { type: integer, notnull: false }
+    subcategoria_id: { type: integer, notnull: false }
+    preciomin:
+      type: float()
+    preciomax:
+      type: float()
+    fechainicial:
+      type: timestamp(25)
+    fechafinal:
+      type: timestamp(25)
+    etiquetalugar:
+      type: string(255)
+    etiquetatema:
+      type: string(255)
+    idetiquetalugar:
+      type: string(255)
+    idetiquetatema:
+      type: string(255)
+    reviewed:
+      type: integer(1)
+    untagged:
+      type: integer(1)
+    sesion_id: { type: integer, notnull: false }
+    ordenbusqueda:
+      type: string(100)
+    carga_id: { type: integer, notnull: false }
+    created_at:
+      type: timestamp(25)
+    created_by:
+      type: integer
+    updated_at:
+      type: timestamp(25)
+    updated_by:
+      type: integer
+    deleted_at:
+      type: timestamp(25)
+    deleted_by:
+      type: integer
+Carga:
+  columns:
+    usuario_id:
+      type: integer
+      notnull: true
+    fechacarga:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+Categoria:
+  columns:
+    descripcion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+ConfSeguridad:
+  columns:
+    min_letras:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    min_numeros:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    min_simbolos:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    simbolos:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    largo_min:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    largo_max:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    dias_caducidad:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0000-00-00 00:00:00'
+      notnull: true
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0000-00-00 00:00:00'
+      notnull: true
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0000-00-00 00:00:00'
+      notnull: true
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+Fotografia:
+#  actAs:
+#    Timestampable: ~
+  columns:
+    descripcion:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    nombre_archivo:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    camera:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    model:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    fstop:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    exposuretime:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    isospeed:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    focallength:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    taken:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    mimetype:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    usuario_id:
+      type: integer
+      notnull: true
+    categoria_id: { type: integer, notnull: false }
+    subcategoria_id:
+      type: integer
+    sesion_id:
+      type: integer
+    carga_id:
+      type: integer
+#      notnull: true
+    precio:
+      type: float()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    reviewed:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    created_at: { type: timestamp, notnull: false }
+    updated_at: { type: timestamp, notnull: false }
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    Usuario:      { onDelete: RESTRICT, local: usuario_id, foreign: id, foreignAlias: Fotografias }
+    Categoria:    { onDelete: RESTRICT, local: categoria_id, foreign: id, foreignAlias: Fotografias }
+    Subcategoria: { onDelete: RESTRICT, local: subcategoria_id, foreign: id, foreignAlias: Fotografias }
+    Sesion:       { onDelete: RESTRICT, local: sesion_id, foreign: id, foreignAlias: Fotografias }
+    Carga:        { onDelete: RESTRICT, local: carga_id, foreign: id, foreignAlias: Fotografias }
+    Lugares:      { class: Lugar, refClass: FotografiaLugar, foreignAlias: Fotografias }
+    Temas:        { class: Tema, refClass: FotografiaTema, foreignAlias: Fotografias }
+
+sfGuardUserProfileFotografia:
+  columns:
+    fotografia_id:
+      type: integer
+      notnull: true
+    sf_guard_user_profile_id:
+      type: integer
+      notnull: true
+    status:
+      type: enum(8)
+#      values: [favorita, papelera, carrito, pendiente, comprada]
+      values: [favorita, papelera]
+      notnull: true
+  relations:
+    Fotografia:
+      class: Fotografia
+      local: fotografia_id
+      foreignAlias: SfGuardUserProfileFotografias
+      onDelete: RESTRICT
+    SfGuardUserProfile:
+      class: sfGuardUserProfile
+      local: sf_guard_user_profile_id
+      foreignAlias: SfGuardUserProfileFotografias
+      onDelete: RESTRICT
+
+FotografiaLugar:
+  columns:
+    fotografia_id:
+      type: integer
+      notnull: true
+    lugar_id:
+      type: integer
+      notnull: true
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+#  relations:
+#    Fotografia:
+#      foreignAlias: FotografiasLugares
+#      onDelete: RESTRICT
+#    Lugar:
+#      foreignAlias: FotografiasLugares
+#      onDelete: RESTRICT
+
+FotografiaTema:
+  columns:
+    fotografia_id:
+      type: integer
+      notnull: true
+    tema_id:
+      type: integer
+      notnull: true
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+Lugar:
+  columns:
+    descripcion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+Rol:
+  columns:
+    id:
+      type: enum
+      values:
+        - admin
+        - fotografo
+      primary: true
+      default: admin
+      notnull: true
+    descripcion: { type: string(255), notnull: true, default: ''}
+Sesion:
+  columns:
+    descripcion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    usuario_id:
+      type: integer
+      notnull: true
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    Usuario: { onDelete: RESTRICT, local: usuario_id, foreign: id, foreignAlias: Sesiones }
+
+Subcategoria:
+  columns:
+    categoria_id:
+      type: integer
+      notnull: true
+    descripcion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    Categoria: { onDelete: RESTRICT, local: categoria_id, foreign: id, foreignAlias: Subcategorias }
+
+Tema:
+  columns:
+    descripcion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+Usuario:
+  columns:
+    usuario:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    contrasena:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: false
+      autoincrement: false
+    contrasena_updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0000-00-00 00:00:00'
+      notnull: false
+      autoincrement: false
+    nombre:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    apellido:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    correo:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    precio:
+      type: float()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    rol_id:
+      type: enum(9)
+      fixed: false
+      unsigned: false
+      values:
+        - admin
+        - fotografo
+      primary: false
+      default: admin
+      notnull: true
+      autoincrement: false
+    comision:
+      type: float()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    updated_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    deleted_by:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    
+sfGuardUserProfile:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:
+      type: integer
+      notnull: true
+      unique: true
+    email_new:
+      type: string(255)
+      unique: true
+    firstname:
+      type: string(255)
+    lastname:
+      type: string(255)
+    country:
+      type: string(255)
+    city:
+      type: string(255)
+    address:
+      type: string(255)
+    phone:
+      type: string(255)
+    birthdate:
+      type: timestamp(25)
+    validate_at:
+      type: timestamp
+    validate:
+      type: string(33)
+  relations:
+    User:
+      class: sfGuardUser
+      foreign: id
+      local: user_id
+      type: one
+      onDelete: cascade
+      foreignType: one
+      foreignAlias: Profile
+    Fotografias: { class: Fotografia, refClass: sfGuardUserProfileFotografia, foreignAlias: Profile }
+  indexes:
+    validate:
+      fields: [validate]
+
+Evento:
+  columns:
+    caption:           {type: varchar (128) }
+    nombre_archivo_es: {type: varchar (255) }
+    nombre_archivo_pt: {type: varchar (255) }
+    nombre_archivo_en: {type: varchar (255) }
+    nombre_icono: {type: varchar (255) }
+    categoria_id: {type: integer }
+    subcategoria_id: {type: integer }
+    created_at: {type: timestamp }
+    created_by: {type: integer }
+    updated_at: {type: timestamp }
+    updated_by: {type: integer }
+    deleted_at: {type: timestamp }
+    deleted_by: {type: integer }
+  relations:
+    Categoria: { onDelete: RESTRICT, local: categoria_id, foreign: id, foreignAlias: Eventos }
+    Subcategoria: { onDelete: RESTRICT, local: subcategoria_id, foreign: id, foreignAlias: Eventos }
+    
+Pedido:
+  actAs:
+    Timestampable: ~
+  columns:
+    status:
+      type: enum(20)
+      values: [draft, stable]
+      default: draft
+    external_reference: { type: string(20) }
+    preference_id:      { type: string(20) }
+    is_pagado:          { type: boolean, default: false }
+    user_id:            { type: integer, notnull: true }
+  relations:
+    User: { class: sfGuardUser, onDelete: cascade, local: user_id, foreign: id, foreignType: many, foreignAlias: Pedidos }
+
+PedidoItem:
+  columns:
+    pedido_id:     { type: integer, notnull: true }
+    fotografia_id: { type: integer, notnull: true }
+    precio:        { type: float, notnull: true }
+    comision:      { type: float, notnull: true }
+  relations:
+    Pedido: { onDelete: cascade, local: pedido_id, foreign: id, foreignAlias: Items }
+    Fotografia: { onDelete: cascade, local: fotografia_id, foreign: id, foreignAlias: Items }

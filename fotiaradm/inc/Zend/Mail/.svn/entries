@@ -1,0 +1,91 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Mail
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Protocol
+dir
+
+Message
+dir
+
+Storage
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+7abe615c543c9b1ea180ee270dad8a8a
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Part
+dir
+
+Message.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+af90621ae3306e77a81ce41b7e196926
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Storage.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+04c4a55af16ae04f58a493a7481ce685
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Transport
+dir
+
+Part.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+f29de60706e045746bebe34bf2593447
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

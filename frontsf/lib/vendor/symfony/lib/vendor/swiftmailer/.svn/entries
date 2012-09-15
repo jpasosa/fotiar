@@ -1,0 +1,94 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/vendor/swiftmailer
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+mime_types.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+abb6ccc75d6a59a42cb258da02f90a5c
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+swift_required.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+c71ce21376f20edfef82741f2cc45b18
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+swift_init.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+8205b5fea339f39676a7b45b1d55ef0e
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+preferences.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+b701332b421b0c289a5559729e922f7b
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+swift_required_pear.php
+file
+
+
+
+
+2011-10-11T20:50:45.000000Z
+9be56fa84e47172301f350fd6999aa25
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+classes
+dir
+
+dependency_maps
+dir
+

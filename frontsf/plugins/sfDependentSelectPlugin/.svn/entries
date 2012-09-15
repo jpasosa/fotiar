@@ -1,0 +1,73 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfDependentSelectPlugin
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-25T09:29:42.040540Z
+134
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+LICENSE
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+b7a2bf36ad3131281a2c966c8b632ddf
+2011-10-25T09:29:42.040540Z
+134
+danilo
+
+README_es
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+f76d27926d0d18c7ba8d032fabfbf348
+2011-10-25T09:29:42.040540Z
+134
+danilo
+
+lib
+dir
+
+modules
+dir
+
+web
+dir
+
+README
+file
+
+
+
+
+2011-10-26T14:42:50.000000Z
+e61f4cf8419c29d76b4ddd61a828bac7
+2011-10-25T09:29:42.040540Z
+134
+danilo
+

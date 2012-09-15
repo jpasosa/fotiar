@@ -1,0 +1,116 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/web
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2012-03-05T10:21:00.771375Z
+306
+danilo
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+sfDoctrinePlugin
+dir
+
+sfFormExtraPlugin
+dir
+
+sfForkedDoctrineApplyPlugin
+dir
+
+info.php
+file
+
+
+
+
+2012-01-30T11:56:55.000000Z
+46d96b9569ec052a032017de7f1072cf
+2012-01-14T15:45:28.463378Z
+275
+danilo
+
+frontend_dev.php
+file
+
+
+
+
+2011-10-26T14:53:16.000000Z
+c788a863788a299e19ce7fe8afea5d78
+2011-10-26T14:53:09.832437Z
+135
+clodo
+
+images
+dir
+
+robots.txt
+file
+
+
+
+
+2011-10-11T20:50:46.000000Z
+58358960364e26d020c98d05aa8f27ad
+2011-10-11T11:24:46.160574Z
+116
+danilo
+has-props
+
+sfJqueryReloadedPlugin
+dir
+
+css
+dir
+
+sf
+dir
+
+.htaccess
+file
+
+
+
+
+2011-10-11T20:50:46.000000Z
+06b539362d5de8d6a15d520abefc8cca
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+js
+dir
+
+index.php
+file
+
+
+
+
+2011-10-11T20:50:46.000000Z
+0ed5f2c1673a46c18d70c95c19c6a18f
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+sfDependentSelectPlugin
+dir
+

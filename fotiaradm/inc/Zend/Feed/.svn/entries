@@ -1,0 +1,151 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Feed
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Element.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+46a8aba476550e5e27d3aa3c67a1514b
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Entry
+dir
+
+Reader
+dir
+
+Writer.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+eb0f604bb41f6577a12ea56aaaf3d772
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+4f7a55d8b77a340d9020a220834b0497
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Builder
+dir
+
+Atom.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+2bf0f0b077b43924408216d5916dc4ae
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Pubsubhubbub
+dir
+
+Reader.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+1fb5a8acaeeb2e376c7e782ea61803f0
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+fcf294d6b75ede834e70f85eb75b5499
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Writer
+dir
+
+Builder.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+3066adca9d19c2e2ff0e470759d67945
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Rss.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+9f3a9b66e0bc208c44e59e0de8d85aa9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Pubsubhubbub.php
+file
+
+
+
+
+2011-11-21T20:04:45.000000Z
+3cb1bb1ef086fbfab1231d57515b4e0f
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

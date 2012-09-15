@@ -1,0 +1,4 @@
+<img src="<?=$this->baseUrl?>/styles/img/home_fotiar.png" alt="homefotiar" />
+
+<h1 style="text-align:center">Módulo de Administración del Sistema Fotiar</h1>
+<h2>Desde aqui podrás cargar tus fotos, categorizarlas, etiquetarlas, ponerles precio y dejarlas listas para que tus clientes las compren.</h2>

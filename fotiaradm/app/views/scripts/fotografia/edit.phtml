@@ -1,0 +1,55 @@
+<?
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fotografia_edit.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/jquery-1.4.3.min.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fancybox/jquery.fancybox-1.3.4.pack.js');
+$this->headScript()->appendFile($this->baseUrl . 'scripts/fancybox/jquery.mousewheel-3.0.4.pack.js');
+$this->headLink()->appendStylesheet($this->baseUrl . 'scripts/fancybox/jquery.fancybox-1.3.4.css');
+?>
+<p>
+<?=$this->actionLink('Volver al listado de fotografías', 'fotografia','results',array('id'=> $this->busqueda), array('class'=>'back')) ?>
+<br style="clear:both" />
+</p>
+		<div class="picturearea">
+		  <div class="picture">
+		  	<div class="image">
+		  		<img id="<?=$this->fotografia->id?>img" src="<?=$this->baseUrl.$this->img_folder.$this->fotografia->nombre_archivo.'?'.strtotime(models_Fotografia::lastUpdate($this->fotografia)) ?>" alt="<?=$this->fotografia->nombre_archivo?>" style='max-width:<?=$this->img_max_width?>px;max-height: <?=$this->img_max_width?>px' class="img-shadow" />
+		  		<br style="clear:both" />
+		  	</div>
+			<br/>
+		    <div class="pictureactions">
+				<span class="rotateleft disabled">Eliminar</span>
+	            <?=$this->actionLink('','fotografia','delete',array('id' => $this->fotografia->id,'control'=> 'fotografia' ,'act'=> 'results','busqueda'=>$this->busqueda), array('onclick' =>'if(confirmDelete()){return true}else{return false}', 'class' => 'deletepict')) ?>
+				<span class="edit disabled">Editar</span>
+	            <a rel="gallery" id="a<?=$this->fotografia->id?>anc" href="<?=$this->baseUrl.$this->img_folder.$this->fotografia->nombre_archivo?>" title="<?=$this->fotografia->nombre_archivo?>" style='max-width:<?=$this->thumb_max_width?>px;max-height: <?=$this->thumb_max_width?>px' class="viewpicture" ></a>
+	            <a id="inline<?=$this->fotografia->id?>" href="#exif<?=$this->fotografia->id?>" class="exifinfo"></a>
+				<span class="rotateright disabled">Eliminar</span>
+	            <br style="clear:both" /><br style="clear:both" />
+			</div>
+		  </div>
+		  <br style="clear:both" />
+		</div>
+		<div style="display:none">  
+          <div id="exif<?=$this->fotografia->id?>">
+                <h3>Información EXIF</h3>
+            	<dl class="viewpict">
+                    <dt><strong>Nombre de Archivo</strong></dt>
+                    <dd><?= $this->fotografia->nombre_archivo; ?>&nbsp;</dd>
+                    <dt><strong>Cámara</strong></dt>
+                    <dd><?= $this->fotografia->camera; ?>&nbsp;</dd>
+                    <dt><strong>Modelo</strong></dt>
+                    <dd><?= $this->fotografia->model; ?>&nbsp;</dd>
+                    <dt><strong>Tiempo de Exposición</strong></dt>
+                    <dd><?= $this->fotografia->exposuretime; ?>&nbsp;</dd>
+                    <dt><strong>Velocidad ISO</strong></dt>
+                    <dd><?= $this->fotografia->isospeed; ?>&nbsp;</dd>
+                    <dt><strong>Distancia Focal</strong></dt>
+                    <dd><?= $this->fotografia->focallength; ?>&nbsp;</dd>
+                    <dt><strong>Fecha de Captura</strong></dt>
+                    <dd><?= $this->fotografia->taken; ?>&nbsp;</dd>
+                    <dt><strong>Tipo MIME</strong></dt>
+                    <dd><?= $this->fotografia->mimetype; ?>&nbsp;</dd>
+                </dl>
+         	</div>
+         </div>
+         <?= $this->form ;?>
+         

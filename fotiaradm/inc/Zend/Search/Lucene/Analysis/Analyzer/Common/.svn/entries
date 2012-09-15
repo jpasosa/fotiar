@@ -1,0 +1,88 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Search/Lucene/Analysis/Analyzer/Common
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Text
+dir
+
+TextNum
+dir
+
+Utf8
+dir
+
+Utf8Num
+dir
+
+Text.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+17a690cbc8de69a5e888c0e241c5a092
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+TextNum.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+3d5b0ab9e51764799335f7e5e773c03a
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Utf8.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+fc580e9c7ee66d5ff4039b21ce94ccf8
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Utf8Num.php
+file
+
+
+
+
+2011-11-21T20:05:07.000000Z
+61c7eb3ca74f7f7a3363206f06437e95
+2011-11-19T06:17:41.332353Z
+176
+danilo
+

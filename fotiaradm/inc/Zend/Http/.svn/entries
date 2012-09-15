@@ -1,0 +1,94 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Http
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Cookie.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+6f2277a1e944d340f4f74610337060a6
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Client.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+2090bbc4ac3c8f0b546ec3bbed583f52
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+56983337f0ef2c60cbdfc84d48a598b2
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Response.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+c90dbf884e46a531cc91ed617fadb34f
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+CookieJar.php
+file
+
+
+
+
+2011-11-21T20:04:46.000000Z
+5cbeab52a0550adbca5d5f2c12ca8ef4
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Client
+dir
+
+Response
+dir
+

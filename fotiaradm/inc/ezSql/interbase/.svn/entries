@@ -1,0 +1,52 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/ezSql/interbase
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+ez_sql.php
+file
+
+
+
+
+2011-11-21T20:05:08.000000Z
+62a2178c32fb937d1b39d12ecd033a3e
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+ez_demo.php
+file
+
+
+
+
+2011-11-21T20:05:08.000000Z
+1d589fa301720bdb383bfe4014b88a10
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

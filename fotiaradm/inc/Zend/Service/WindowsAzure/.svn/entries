@@ -1,0 +1,73 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Service/WindowsAzure
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Storage
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:42.000000Z
+479b716cc1d097f53c53549cd57d92cf
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+RetryPolicy
+dir
+
+SessionHandler.php
+file
+
+
+
+
+2011-11-21T20:04:42.000000Z
+fc4dcf52e614383883ae5cb55bd8a466
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Storage.php
+file
+
+
+
+
+2011-11-21T20:04:42.000000Z
+60e5a121e5a28f2ef43b624b8f6c43d9
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Credentials
+dir
+

@@ -1,0 +1,67 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Pager
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Range.php
+file
+
+
+
+
+2011-10-11T20:50:37.000000Z
+da7ff7fb464f4922cf312ae33a6e9752
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Layout.php
+file
+
+
+
+
+2011-10-11T20:50:37.000000Z
+ba3dc1447a4917c81b53c5bf0a330022
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-10-11T20:50:37.000000Z
+f4b09035353ab42a691e6a81fb0550f3
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+Range
+dir
+

@@ -1,0 +1,61 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfJqueryReloadedPlugin
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+LICENSE
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+37fe11362d52738483c7dd81991ae972
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+config
+dir
+
+lib
+dir
+
+web
+dir
+
+README
+file
+
+
+
+
+2011-10-11T20:50:25.000000Z
+4d308f8a3e67a7b1ba6ca945741b68ca
+2011-10-11T11:24:46.160574Z
+116
+danilo
+

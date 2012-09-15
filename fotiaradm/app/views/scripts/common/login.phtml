@@ -1,0 +1,7 @@
+<?php
+	$errorsMessages =$this->form->getMessages();
+	if((isset($errorsMessages['usuario']['isEmpty'])) OR (isset($errorsMessages['contrasena']['isEmpty']))){
+		echo '<span style="color:Red">Por Favor, complete todos los campos.</span>';
+	}
+	echo $this->form
+?>

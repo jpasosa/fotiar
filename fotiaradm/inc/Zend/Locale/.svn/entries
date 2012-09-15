@@ -1,0 +1,82 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Locale
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Data.php
+file
+
+
+
+
+2011-11-21T20:04:59.000000Z
+825115c595d92275b66eb38772bc9320
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Math.php
+file
+
+
+
+
+2011-11-21T20:04:59.000000Z
+7471f9a96a5fefd8e9cbd2b9a7c96498
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:59.000000Z
+6610b85a88c489d08375e4544dfc43f9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Data
+dir
+
+Math
+dir
+
+Format.php
+file
+
+
+
+
+2011-11-21T20:04:59.000000Z
+2c34cbe7ff223b8cd645d0349433c5e4
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

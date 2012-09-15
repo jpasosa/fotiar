@@ -1,0 +1,73 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/sfDoctrineGuardPlugin/lib
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-22T01:30:57.362208Z
+201
+clodo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+model
+dir
+
+task
+dir
+
+form
+dir
+
+filter
+dir
+
+validator
+dir
+
+sfGuardBasicSecurityFilter.class.php
+file
+
+
+
+
+2011-10-26T14:42:49.000000Z
+02cfcd5083855bbfc0e3357d09b4df35
+2011-10-22T19:15:12.440923Z
+129
+clodo
+
+routing
+dir
+
+sfGuardRememberMeFilter.class.php
+file
+
+
+
+
+2011-10-26T14:42:49.000000Z
+0f1fb0b0a0b014e5f96ff5f3a2ac2412
+2011-10-22T19:15:12.440923Z
+129
+clodo
+
+user
+dir
+

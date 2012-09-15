@@ -1,0 +1,115 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Db/Adapter
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Sqlsrv.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+f9d8941640f6ff528a5e4d310a33c315
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Pdo
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+2887885e990036ff6fe94d74213dceea
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Mysqli.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+ea587dea577a28dace4c7377bdb088cc
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Oracle
+dir
+
+Db2
+dir
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+5e34494a98201efee3a3f2b0821a989d
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Sqlsrv
+dir
+
+Oracle.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+2e2528e9d859ef4331cb07b36781544e
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Db2.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+4aae4ddd0c1279378a66af3b15d06e97
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+Mysqli
+dir
+

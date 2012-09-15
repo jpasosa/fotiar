@@ -1,0 +1,407 @@
+Fotografia:
+  fot01:
+    nombre_archivo: 1317424062.JPG
+    camera: Canon
+    model: Canon EOS DIGITAL REBEL XTi
+    exposuretime: 1/750
+    isospeed: 400
+    focallength: 108/1
+    taken: '2009-10-09 09:31:13'
+    created_at: '2009-10-09 09:31:13'
+    mimetype: image/jpeg
+    Usuario: usu03
+    Categoria: cat01
+    Subcategoria: scat0102
+#    Sesion:
+    precio: 5.1
+  fot02:
+    nombre_archivo: 1317424069.JPG
+    camera: NIKON CORPORATION
+    model: NIKON D200
+    exposuretime: 1/2500
+    isospeed: 800
+    focallength: 280/10
+    taken: '2008-07-07 10:37:14'
+    created_at: '2008-07-07 10:37:14'
+    mimetype: image/jpeg
+    Usuario: usu03
+    Categoria: cat01
+    Subcategoria: scat0102
+#    Sesion:
+    precio: 5.1
+  fot03:
+    nombre_archivo: 1317424074.JPG
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: cat01
+#    Subcategoria:
+#    Sesion:
+    precio: 5.1
+  fot04:
+    nombre_archivo: 1320767316.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot05:
+    nombre_archivo: 1315931001.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot06:
+    nombre_archivo: 1315931395.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot07:
+    nombre_archivo: 1320418436.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot08:
+    nombre_archivo: 1318203106.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot09:
+    nombre_archivo: 1.31742083308E+13.JPG
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot10:
+    nombre_archivo: 1318283109.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot11:
+    nombre_archivo: 1320767317.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot12:
+    nombre_archivo: 1320418962.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot13:
+    nombre_archivo: 1320419043.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot14:
+    nombre_archivo: 1400000000.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot15:
+    nombre_archivo: 15.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot16:
+    nombre_archivo: 16.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot17:
+    nombre_archivo: 17.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot18:
+    nombre_archivo: 18.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot19:
+    nombre_archivo: 19.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot20:
+    nombre_archivo: 20.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot21:
+    nombre_archivo: 21.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot22:
+    nombre_archivo: 22.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot23:
+    nombre_archivo: 23.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot24:
+    nombre_archivo: 24.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+  fot25:
+    nombre_archivo: 25.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2011-08-13 15:20:33'
+    created_at: '2011-08-13 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: varios
+#    Subcategoria: varios_perro
+#    Sesion:
+    precio: 5.1
+
+  fot_ssimon_01:
+    nombre_archivo: 1320766073.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2010-02-08 15:20:33'
+    created_at: '2010-02-08 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: familias
+#    Subcategoria:
+    Sesion: simon
+    precio: 5.1
+  fot_ssimon_02:
+    nombre_archivo: 1320766074.jpg
+    camera: Canon
+    model: Canon EOS REBEL T1i
+    exposuretime: 1/500
+    isospeed: 200
+    focallength: 70/1
+    taken: '2010-02-08 15:20:33'
+    created_at: '2010-02-08 15:20:33'
+    mimetype: image/jpeg
+    Usuario: usu02
+    Categoria: familias
+#    Subcategoria:
+    Sesion: simon
+    precio: 5.1

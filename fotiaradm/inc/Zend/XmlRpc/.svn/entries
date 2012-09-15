@@ -1,0 +1,130 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/XmlRpc
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Fault.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+ca57a5da6981e69a7a27ad1dcf8cada2
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Value.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+f6f6206df101eb2cef2d773e5fc29ee9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Client.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+b96f01630340aae98874f62a173ea726
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+bb3322b0080b81c5b363b88a6867c4cd
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Response.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+a3242c41fe17e1205ccc1ded5f3ee054
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Generator
+dir
+
+Server
+dir
+
+Request
+dir
+
+Value
+dir
+
+Server.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+5578c4465c6fa07b76774f34242e62e4
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Client
+dir
+
+Response
+dir
+
+Request.php
+file
+
+
+
+
+2011-11-21T20:05:05.000000Z
+23e729f81a5a9fe454e6e0fbe3ef12c9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

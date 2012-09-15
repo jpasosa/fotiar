@@ -1,0 +1,1 @@
+<strong><?=$this->usuario->nombre.' '.$this->usuario->apellido?></strong> - <strong><?=$this->rol?></strong> <?=$this->actionLink('Salir', 'index','logout',	array(), array('class'=>'logout'))?>

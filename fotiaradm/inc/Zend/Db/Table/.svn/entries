@@ -1,0 +1,109 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Db/Table
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Select
+dir
+
+Rowset
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+804cd315e65c6d14eafba919fe68cfcf
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Select.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+377f4cb7dfc516f3d49704a8b88ac34a
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Row
+dir
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+716aa5da90f88a255cb5e881702c8bf8
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Rowset.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+dbc4b10f341dd5b7298b1120ef9188af
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Row.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+23d04cdbb5079e01b028d38078b1ea85
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Definition.php
+file
+
+
+
+
+2011-11-21T20:04:50.000000Z
+01db8ffd76acf0dca58225747c704e4f
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

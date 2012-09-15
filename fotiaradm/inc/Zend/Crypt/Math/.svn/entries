@@ -1,0 +1,55 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Crypt/Math
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+BigInteger
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+4aa3f4017e0b647015899765de01072f
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+BigInteger.php
+file
+
+
+
+
+2011-11-21T20:04:44.000000Z
+e2ed17192301d281c15410b0df4397a5
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

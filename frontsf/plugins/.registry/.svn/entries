@@ -1,0 +1,43 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/plugins/.registry
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-25T09:29:42.040540Z
+134
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+.channel.pear.symfony-project.com
+dir
+
+.channel.__uri
+dir
+
+.channel.pecl.php.net
+dir
+
+.channel.plugins.symfony-project.org
+dir
+
+.channel.doc.php.net
+dir
+

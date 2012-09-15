@@ -1,0 +1,76 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/frontsf/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/unit
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+form
+dir
+
+sfDoctrineColumnTest.php
+file
+
+
+
+
+2011-10-11T20:50:34.000000Z
+836468a8181dc348ad6a6092be64e3be
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+validator
+dir
+
+autoloaderTest.php
+file
+
+
+
+
+2011-10-11T20:50:34.000000Z
+efd90b4f4e3f31eee88e21449aa332ad
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+sfDoctrineDatabaseTest.php
+file
+
+
+
+
+2011-10-11T20:50:34.000000Z
+cd858e776972a21525dc98301f2431c1
+2011-10-11T11:24:46.160574Z
+116
+danilo
+
+pager
+dir
+
+record
+dir
+

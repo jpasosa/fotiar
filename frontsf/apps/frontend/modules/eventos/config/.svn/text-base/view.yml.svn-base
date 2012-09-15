@@ -1,0 +1,3 @@
+all:
+  stylesheets: [ colorbox.css, /sfFormExtraPlugin/css/jquery.autocompleter.css ]
+  javascripts: [ jquery.colorbox.js, ampliar_x.js, /sfFormExtraPlugin/js/jquery.autocompleter.js, icons_rolover.js ]

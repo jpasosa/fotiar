@@ -1,0 +1,82 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Cache
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Frontend
+dir
+
+Manager.php
+file
+
+
+
+
+2011-11-21T20:05:06.000000Z
+fa9fbd5033895b5e19a3212241cedd7b
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:06.000000Z
+dabf908fb8d79bea3957db6fdeb208ae
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Backend
+dir
+
+Backend.php
+file
+
+
+
+
+2011-11-21T20:05:06.000000Z
+129eb3f929144a9d8d26a673ca5aa4f8
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Core.php
+file
+
+
+
+
+2011-11-21T20:05:06.000000Z
+9d4501dffa98222be64616cd685021a4
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

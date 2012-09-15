@@ -1,0 +1,107 @@
+<?php 
+$evento1 = $this->evento1;
+$evento2 = $this->evento2;
+$evento3 = $this->evento3;
+$evento4 = $this->evento4;
+?>
+<h3>Eventos Principales</h3>
+<p><?=$this->actionLink('Volver al listado', 'administracion', 'index', array(), array('class'=>'back'))?></p>
+<h3>Evento 1 - <?=$this->actionLink('Editar', 'evento', 'edit', array('id'=>'1'))?></h3>
+<dl class="view">
+	<dt>Categoría</dt>
+	<dd><?=models_Categoria::findByPK($evento1->categoria_id)?>&nbsp;</dd>
+	<dt>Subcategoría</dt>
+	<dd><?=models_Subcategoria::findByPK($evento1->subcategoria_id)?>&nbsp;</dd>
+</dl>
+<div style="width:10%;float:left;text-align:center;">
+	<h4>Ícono</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento1->nombre_icono.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Español</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento1->nombre_archivo_es.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Portuges</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento1->nombre_archivo_pt.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Inglés</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento1->nombre_archivo_en.'?'.rand();?>"  />
+</div>
+<br style="clear: both">
+<br style="clear: both">
+<h3>Evento 2 - <?=$this->actionLink('Editar', 'evento', 'edit', array('id'=>'2'))?></h3>
+<dl class="view">
+	<dt>Categoría</dt>
+	<dd><?=models_Categoria::findByPK($evento2->categoria_id)?>&nbsp;</dd>
+	<dt>Subcategoría</dt>
+	<dd><?=models_Subcategoria::findByPK($evento2->subcategoria_id)?>&nbsp;</dd>
+</dl>
+<div style="width:10%;float:left;text-align:center;">
+	<h4>Ícono</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento2->nombre_icono.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Espanol</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento2->nombre_archivo_es.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Portuges</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento2->nombre_archivo_pt.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Inglés</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento2->nombre_archivo_en.'?'.rand();?>"  />
+</div>
+<br style="clear: both">
+<br style="clear: both">
+<h3>Evento 3 - <?=$this->actionLink('Editar', 'evento', 'edit', array('id'=>'3'))?></h3>
+<dl class="view">
+	<dt>Categoría</dt>
+	<dd><?=models_Categoria::findByPK($evento3->categoria_id)?>&nbsp;</dd>
+	<dt>Subcategoría</dt>
+	<dd><?=models_Subcategoria::findByPK($evento3->subcategoria_id)?>&nbsp;</dd>
+</dl>
+<div style="width:10%;float:left;text-align:center;">
+	<h4>Ícono</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento3->nombre_icono.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Espanol</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento3->nombre_archivo_es.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Portuges</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento3->nombre_archivo_pt.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Inglés</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento3->nombre_archivo_en.'?'.rand();?>"  />
+</div>
+<br style="clear: both">
+<br style="clear: both">
+<h3>Evento 4 - <?=$this->actionLink('Editar', 'evento', 'edit', array('id'=>'4'))?></h3>
+<dl class="view">
+	<dt>Categoría</dt>
+	<dd><?=models_Categoria::findByPK($evento4->categoria_id)?>&nbsp;</dd>
+	<dt>Subcategoría</dt>
+	<dd><?=models_Subcategoria::findByPK($evento4->subcategoria_id)?>&nbsp;</dd>
+</dl>
+<div style="width:10%;float:left;text-align:center;">
+	<h4>Ícono</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento4->nombre_icono.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Espanol</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento4->nombre_archivo_es.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Portuges</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento4->nombre_archivo_pt.'?'.rand();?>"  />
+</div>
+<div style="width:30%;float:left;text-align:center;">
+	<h4>Inglés</h4>
+	<img src="<?=$this->baseUrl.'/'.$this->event_folder.'/'.$evento4->nombre_archivo_en.'?'.rand();?>"  />
+</div>
+<br style="clear: both">

@@ -1,0 +1,136 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Tool/Framework/Client
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T06:17:41.332353Z
+176
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Console
+dir
+
+Storage
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+1a392a7441cb56fbaa44e0770288bdbd
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Response.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+8fa7d4e279531d2b6e0b0fbc2cdb4c01
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Console.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+32a8cbe4e4990750a21a5f70f0f106a2
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Abstract.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+012db3da1158b5ba42f9e6b4f184ea26
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Storage.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+7065ed007cfc83ca2bdd7ec4897f7654
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Config.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+5d3e021605f25a8bf60f857e3a63d0d9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Manifest.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+776dc84ed65de52672cc717252dfcde9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+Interactive
+dir
+
+Response
+dir
+
+Request.php
+file
+
+
+
+
+2011-11-21T20:05:03.000000Z
+570cb141443f4dd848b6e87bc284e306
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

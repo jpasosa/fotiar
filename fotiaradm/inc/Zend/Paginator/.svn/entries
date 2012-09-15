@@ -1,0 +1,70 @@
+8
+
+dir
+306
+file:///home/hormigon/usvn/files/svn/fotiar/fotiaradm/inc/Zend/Paginator
+file:///home/hormigon/usvn/files/svn/fotiar
+
+
+
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ba9e760-54dd-4c35-834d-78c69f7f3e31
+
+Adapter
+dir
+
+Exception.php
+file
+
+
+
+
+2011-11-21T20:04:49.000000Z
+55f579b511bb6c7ba478a1dfec2a61a9
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+SerializableLimitIterator.php
+file
+
+
+
+
+2011-11-21T20:04:49.000000Z
+6cac06427d255a257584dd516f5e290a
+2011-11-19T03:40:59.748672Z
+175
+danilo
+
+ScrollingStyle
+dir
+
+AdapterAggregate.php
+file
+
+
+
+
+2011-11-21T20:04:49.000000Z
+c2a66317451df84be5993988524e72fc
+2011-11-19T03:40:59.748672Z
+175
+danilo
+

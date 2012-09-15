@@ -1,0 +1,55 @@
+Tema:
+  tem01:
+    descripcion: Recital Vilma Palma
+  tem02:
+    descripcion: Coctel Empresarial
+  tem03:
+    descripcion: Desfile de modelos
+  tem04:
+    descripcion: Fiesta de la Espuma
+  tem05:
+    descripcion: Bajada con Antorchas
+  tem06:
+    descripcion: Perro
+  tem07:
+    descripcion: Animales
+  tem08:
+    descripcion: Mundial De Surf
+  tem09:
+    descripcion: 2009
+  tem10:
+    descripcion: Kelly Slater
+  tem11:
+    descripcion: Bajada Nocturna
+  tem12:
+    descripcion: Salto
+  tem13:
+    descripcion: Campeonato De Sky 2010
+
+Lugar:
+  lug01:
+    descripcion: Monte Olivo
+  lug02:
+    descripcion: Rafael Castillo
+  lug03:
+    descripcion: Villa Dalmine
+  lug04:
+    descripcion: Espeleta
+  lug05:
+    descripcion: Brandsen
+  lug06:
+    descripcion: Castor
+  lug07:
+    descripcion: Paternal
+  lug08:
+    descripcion: Almagro
+  lug09:
+    descripcion: Caballito
+  lug10:
+    descripcion: Flores
+  lug11:
+    descripcion: Villa Gessel
+  lug12:
+    descripcion: Villa Urquiza
+  lug13:
+    descripcion: Brasil
